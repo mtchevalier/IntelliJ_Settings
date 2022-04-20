@@ -1,0 +1,65 @@
+<application>
+  <component name="IlluminatedCloudSettings">
+    <option name="connectionConfigs">
+      <list>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="Advanced Apex Specialist Superbadge" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="username" value="matthew.chevalier@creative-fox-qmxbvi.com" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="Apex Specialist Superbadge" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="organizationType" value="DEVELOPMENT" />
+          <option name="username" value="matthew.chevalier@creative-panda-a7g6re.com" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="Assessments" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="organizationType" value="DEVELOPMENT" />
+          <option name="username" value="brancoofpa@gmail.com" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="Data Integration Specialist Superbadge" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="username" value="matthew.chevalier@empathetic-goat-4dhg5c.com" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="mattDev" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="loginUrl" value="https://test.salesforce.com/" />
+          <option name="organizationType" value="SANDBOX" />
+          <option name="username" value="matthew.chevalier@progyny.com.mattdev" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
+          <option name="checkForConflicts" value="true" />
+          <option name="confirmWrites" value="true" />
+          <option name="connectionName" value="Production" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="disableDeployOnSaveWhenConfirmWrites" value="true" />
+          <option name="ensureFieldReadAccess" value="false" />
+          <option name="username" value="matthew.chevalier@progyny.com" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
+          <option name="confirmWrites" value="true" />
+          <option name="connectionName" value="QA" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="ensureFieldReadAccess" value="false" />
+          <option name="loginUrl" value="https://test.salesforce.com/" />
+          <option name="organizationType" value="SANDBOX" />
+          <option name="username" value="matthew.chevalier@progyny.com.progynyqa" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="Trailhead Playground" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="ensureFieldReadAccess" value="false" />
+          <option name="organizationType" value="DEVELOPMENT" />
+          <option name="username" value="matthew.chevalier@brave-goat-f4ungr.com" />
+        </IlluminatedCloudConnectionConfig>
+      </list>
+    </option>
+    <option name="lastChangeNotesVersion" value="2.2.1.5" />
+    <option name="selectedConnectionIndex" value="7" />
+    <option name="selectedTabIndex" value="1" />
+  </component>
+</application>

@@ -1,0 +1,106 @@
+<templateSet group="LWC">
+  <template name="importobject" value="import $ALIAS$ from '@salesforce/schema/$OBJECT$';&#10;$END$" description="Schema object import statement - import alias from '@salesforce/schema/object';" toReformat="true" toShortenFQNames="true">
+    <variable name="OBJECT" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ALIAS" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="importfield" value="import $ALIAS$ from '@salesforce/schema/$OBJECT$.$FIELD$';&#10;$END$" description="Schema field import statement - import alias from '@salesforce/schema/object.field';" toReformat="true" toShortenFQNames="true">
+    <variable name="OBJECT" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ALIAS" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="wireprop" value="@wire($MODULE$, { $LABEL$: '$$$VALUE$' })&#10;$PROP_PREFIX$_PRVSNOBJ;&#10;$END$" description="Wire adaptor to Property - syntax for using a wire adapter directly with a property and a reactive paramater" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROP_PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="reactiveparam" value="'$$$SELECTION$'$END$" description="Reactive Parameter Wrapper - syntax to make a wire adapter parameter reactive" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wirefunction" value="//DO NOT use this. for arguments in outter function call&#10;@wire($MODULE_NAME$, { $LABEL$: '$$$VALUE$' })&#10;$MODULE_NAME$_OnResponse($PROP_PREFIX$_PRVSNOBJ) {&#10;    //TODO assign $PROP_PREFIX$_ProvisionedObject to class property for use in refreshApex() call,&#10;    const { data, error } = $PROP_PREFIX$_PRVSNOBJ;&#10;    if (data) {&#10;        $END$&#10;    } else if (error) { UTILS.promiseErrorToast(this, error); }&#10;}" description="Wire adaptor to Function - syntax for using a wire adapter with a function and a reactive paramater" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROP_PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imperativeApexCall" value="//Must be called in a function&#10;//first fill is the module name as imported&#10;// must reference this. for any class variable names&#10;$MODULE_NAME$({ $LABEL$: $VALUE$ })&#10;.then(data =&gt; {})&#10;.catch(error =&gt; {&#10;    this.dispatchEvent(&#10;        new ShowToastEvent({&#10;            title: '$MODULE_NAME$ Error',&#10;            message: reduceErrors(error)[0],&#10;            variant: 'error',&#10;            mode: 'sticky'&#10;        })&#10;    );&#10;})&#10;.finally(onFinal =&gt; {});&#10;" description="Apex Method Imperative Method Call" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="recipemodal" value="&lt;c-modal header=&quot;$HEADER$&quot; onclosedialog={handleModalClose}&gt;&#10;    &lt;!--&lt;span slot=&quot;header&quot;&gt;&lt;/span&gt;--&gt;&#10;    &lt;!--&lt;span slot=&quot;tagline&quot;&gt;&lt;/span&gt;--&gt;&#10;    &lt;span slot=&quot;body&quot;&gt;&#10;        $END$&#10;    &lt;/span&gt;&#10;    &lt;!--&lt;span slot=&quot;footer&quot;&gt;&lt;/span&gt;--&gt;&#10;&lt;/c-modal&gt;" description="lwc recipe modal markup skeleton" toReformat="false" toShortenFQNames="true">
+    <variable name="HEADER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="dispatchevent" value="this.dispatchEvent(&#10;    new CustomEvent('$EVENT_TYPE$', {detail: $END$})&#10;);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="EVENT_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="toastinvocation" value="this.dispatchEvent(&#10;    new ShowToastEvent({&#10;        title: '$TITLE$',&#10;        message: $MESSAGE$,&#10;        variant: '$VARIANT$',&#10;        mode: '$MODE$'&#10;    })&#10;);&#10;" description="syntax to create and fire a toast event" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VARIANT" expression="enum(&quot;success&quot;,&quot;error&quot;,&quot;info&quot;,&quot;warning&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODE" expression="enum(&quot;dismissable&quot;,&quot;pester&quot;,&quot;sticky&quot;)" defaultValue="dismissable" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="getDataAttr" value="const $ATTR_NAME$ = event.target.dataset.$ATTR_NAME$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ATTR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="getElemFromDOM" value="this.template.querySelector(&quot;lightning-input[data-$DATA_ATTR_NAME$='$ATTR_VALUE$']&quot;);" description="Get single markup element from DOM using data attribute" toReformat="false" toShortenFQNames="true">
+    <variable name="DATA_ATTR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ATTR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="getAllFromDOM" value="[...this.template.querySelectorAll(&quot;[data-$DATA_ATTR_NAME$='$ATTR_VALUE$']&quot;)];" description="Get array of markup elements from DOM using data attribute" toReformat="false" toShortenFQNames="true">
+    <variable name="DATA_ATTR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ATTR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="importLWCutils" value="import * as UTILS from 'c/utils';$END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="navigateToRecordDetailPage" value="this[NavigationMixin.GenerateUrl]({&#10;    type: 'standard__recordPage',&#10;    attributes: {&#10;        recordId: $RECORD_ID$,&#10;        actionName: 'view',&#10;    },&#10;}).then(url =&gt; {&#10;    window.open(url);&#10;});" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="RECORD_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sldsgrid" value="&lt;div class=&quot;slds-grid&quot;&gt;$END$&#10;    $SELECTION$&#10;&lt;/div&gt;" description="wrap selection in slds-grid div" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="sldscol" value="&lt;div class=&quot;slds-col&quot;&gt;$END$&#10;    $SELECTION$&#10;&lt;/div&gt;" description="wrap selection in slds-col div" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

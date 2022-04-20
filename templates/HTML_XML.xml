@@ -1,0 +1,9 @@
+<templateSet group="HTML/XML">
+  <template name="aattr" value="&lt;aura:attribute name=&quot;$NAME$&quot; type=&quot;$TYPE$&quot;/&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
