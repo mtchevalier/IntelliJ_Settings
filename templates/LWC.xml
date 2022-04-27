@@ -2,13 +2,11 @@
   <template name="importobject" value="import $ALIAS$ from '@salesforce/schema/$OBJECT$';&#10;$END$" description="Schema object import statement - import alias from '@salesforce/schema/object';" toReformat="true" toShortenFQNames="true">
     <variable name="OBJECT" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="ALIAS" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="importfield" value="import $ALIAS$ from '@salesforce/schema/$OBJECT$.$FIELD$';&#10;$END$" description="Schema field import statement - import alias from '@salesforce/schema/object.field';" toReformat="true" toShortenFQNames="true">
     <variable name="OBJECT" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="FIELD" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="ALIAS" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="wireprop" value="@wire($MODULE$, { $LABEL$: '$$$VALUE$' })&#10;$PROP_PREFIX$_PRVSNOBJ;&#10;$END$" description="Wire adaptor to Property - syntax for using a wire adapter directly with a property and a reactive paramater" toReformat="false" toShortenFQNames="true">
     <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
