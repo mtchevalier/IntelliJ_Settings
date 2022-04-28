@@ -14,6 +14,13 @@
           <option name="username" value="matthew.chevalier@creative-panda-a7g6re.com" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="ASR-DEV" />
+          <option name="connectionType" value="MDAPI" />
+          <option name="loginUrl" value="https://asr--matthew.my.salesforce.com" />
+          <option name="organizationType" value="OTHER" />
+          <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.matthew" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
           <option name="connectionName" value="Assessments" />
           <option name="connectionType" value="MDAPI" />
           <option name="organizationType" value="DEVELOPMENT" />
@@ -59,7 +66,7 @@
       </list>
     </option>
     <option name="lastChangeNotesVersion" value="2.2.1.8" />
-    <option name="selectedConnectionIndex" value="7" />
+    <option name="selectedConnectionIndex" value="8" />
     <option name="selectedTabIndex" value="1" />
   </component>
 </application>
