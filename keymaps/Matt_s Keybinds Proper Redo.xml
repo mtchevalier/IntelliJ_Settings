@@ -117,6 +117,8 @@
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="GotoLine" />
+  <action id="GotoRow" />
   <action id="GotoSymbol" />
   <action id="GotoUrlAction" />
   <action id="IlluminatedCloud.AddToModuleContents">
@@ -176,6 +178,10 @@
     <keyboard-shortcut first-keystroke="ctrl back_slash" />
   </action>
   <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="git-commit-message-template.SetCommitMessageAction">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="org.j92.date.generator.action.Gen">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
