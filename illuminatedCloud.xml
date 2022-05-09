@@ -3,32 +3,35 @@
     <option name="connectionConfigs">
       <list>
         <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="Dev" />
+          <option name="connectionName" value="ASR-DEV" />
           <option name="connectionType" value="MDAPI" />
-          <option name="loginUrl" value="https://test.salesforce.com/" />
-          <option name="organizationType" value="SANDBOX" />
-          <option name="username" value="matthew.chevalier@progyny.com.mattdev" />
+          <option name="loginUrl" value="https://asr--matthew.my.salesforce.com" />
+          <option name="organizationType" value="OTHER" />
+          <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.matthew" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
           <option name="confirmWrites" value="true" />
-          <option name="connectionName" value="Prod" />
+          <option name="connectionName" value="ASR-QA" />
           <option name="connectionType" value="MDAPI" />
           <option name="ensureFieldReadAccess" value="false" />
-          <option name="username" value="matthew.chevalier@progyny.com" />
+          <option name="loginUrl" value="https://asr--qa.my.salesforce.com" />
+          <option name="organizationType" value="OTHER" />
+          <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.qa" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
-          <option name="confirmWrites" value="true" />
-          <option name="connectionName" value="QA" />
+          <option name="connectionName" value="Trailhead Playground" />
           <option name="connectionType" value="MDAPI" />
           <option name="ensureFieldReadAccess" value="false" />
-          <option name="loginUrl" value="https://test.salesforce.com/" />
-          <option name="organizationType" value="SANDBOX" />
-          <option name="username" value="matthew.chevalier@progyny.com.progynyqa" />
+          <option name="organizationType" value="DEVELOPMENT" />
+          <option name="username" value="matthew.chevalier@brave-goat-f4ungr.com" />
         </IlluminatedCloudConnectionConfig>
       </list>
     </option>
     <option name="lastChangeNotesVersion" value="2.2.1.8" />
-    <option name="selectedConnectionIndex" value="2" />
-    <option name="selectedTabIndex" value="1" />
+    <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
+    <option name="rememberLastForceDeploymentResultSelected" value="true" />
+    <option name="selectedConnectionIndex" value="1" />
+    <option name="selectedTabIndex" value="5" />
+    <option name="showMetaXmlFiles" value="true" />
   </component>
 </application>
