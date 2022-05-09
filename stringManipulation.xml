@@ -3,16 +3,6 @@
     <option name="columnAlignerHistory">
       <list>
         <ColumnAlignerModel>
-          <option name="added" value="1605038811449" />
-          <option name="columnSortOrder" value="" />
-          <option name="maxSeparatorsPerLine" value="" />
-          <option name="separators">
-            <list>
-              <option value="=" />
-            </list>
-          </option>
-        </ColumnAlignerModel>
-        <ColumnAlignerModel>
           <option name="added" value="1607543313075" />
           <option name="columnSortOrder" value="" />
           <option name="maxSeparatorsPerLine" value="" />
@@ -207,11 +197,21 @@
           </option>
           <option name="spaceBeforeSeparator" value="false" />
         </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1652116229441" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="from" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
       </list>
     </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.align.AlignSelectionsAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.filter.TrimAllSpacesAction" />
       </UniversalActionModel>
     </option>
     <option name="sortSettings">
