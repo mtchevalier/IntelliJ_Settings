@@ -33,7 +33,8 @@
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
     <option name="selectedConnectionIndex" value="1" />
-    <option name="selectedTabIndex" value="2" />
+    <option name="selectedTabIndex" value="1" />
     <option name="showMetaXmlFiles" value="true" />
+    <option name="subscriptionManagementPolicy" value="NEVER_UPDATE" />
   </component>
 </application>
