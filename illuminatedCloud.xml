@@ -8,6 +8,7 @@
           <option name="ensureFieldReadAccess" value="false" />
           <option name="loginUrl" value="" />
           <option name="organizationType" value="OAUTH" />
+          <option name="useAlternateBehavior" value="true" />
           <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.matthew" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
