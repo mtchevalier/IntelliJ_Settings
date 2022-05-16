@@ -3,12 +3,12 @@
     <option name="connectionConfigs">
       <list>
         <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="ASR-DEV" />
+          <option name="connectionName" value="PGNY-DEV" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
           <option name="loginUrl" value="" />
           <option name="organizationType" value="OAUTH" />
-          <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.matthew" />
+          <option name="username" value="matthew.chevalier@progyny.com.mattdev" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
           <option name="connectionName" value="Trailhead Playground" />
