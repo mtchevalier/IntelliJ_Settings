@@ -12,15 +12,6 @@
           <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.matthew" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
-          <option name="confirmWrites" value="true" />
-          <option name="connectionName" value="ASR-QA" />
-          <option name="connectionType" value="MDAPI" />
-          <option name="ensureFieldReadAccess" value="false" />
-          <option name="loginUrl" value="https://asr--qa.my.salesforce.com" />
-          <option name="organizationType" value="OTHER" />
-          <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.qa" />
-        </IlluminatedCloudConnectionConfig>
-        <IlluminatedCloudConnectionConfig>
           <option name="connectionName" value="Trailhead Playground" />
           <option name="connectionType" value="MDAPI" />
           <option name="ensureFieldReadAccess" value="false" />
@@ -30,6 +21,7 @@
       </list>
     </option>
     <option name="deployAllModifiedFiles" value="false" />
+    <option name="deployOnSave" value="false" />
     <option name="lastChangeNotesVersion" value="2.2.2.0" />
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
@@ -37,6 +29,8 @@
     <option name="selectedTabIndex" value="1" />
     <option name="sfdxExecutablePath" value="C:\Program Files\sfdx\bin\sfdx.cmd" />
     <option name="sfdxLogCommands" value="true" />
+    <option name="sfdxPushOnCreate" value="true" />
+    <option name="sfdxPushOnSave" value="true" />
     <option name="showMetaXmlFiles" value="true" />
     <option name="subscriptionManagementPolicy" value="NEVER_UPDATE" />
   </component>
