@@ -4,9 +4,10 @@
       <list>
         <IlluminatedCloudConnectionConfig>
           <option name="connectionName" value="ASR-DEV" />
-          <option name="connectionType" value="MDAPI" />
-          <option name="loginUrl" value="https://asr--matthew.my.salesforce.com" />
-          <option name="organizationType" value="OTHER" />
+          <option name="connectionType" value="OAUTH" />
+          <option name="ensureFieldReadAccess" value="false" />
+          <option name="loginUrl" value="" />
+          <option name="organizationType" value="OAUTH" />
           <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.matthew" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
@@ -31,8 +32,9 @@
     <option name="lastChangeNotesVersion" value="2.2.2.0" />
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
-    <option name="selectedConnectionIndex" value="1" />
-    <option name="selectedTabIndex" value="3" />
+    <option name="selectedConnectionIndex" value="0" />
+    <option name="selectedTabIndex" value="1" />
+    <option name="sfdxExecutablePath" value="C:\Program Files\sfdx\bin\sfdx.cmd" />
     <option name="sfdxLogCommands" value="true" />
     <option name="showMetaXmlFiles" value="true" />
     <option name="subscriptionManagementPolicy" value="NEVER_UPDATE" />
