@@ -53,7 +53,7 @@
       <option name="APEX" value="true" />
     </context>
   </template>
-  <template name="foreach" value="for($TYPE$ $ITEM_VAR$ : $COLLECTION$){&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="foreach" value="for($TYPE$ $ITEM_VAR$ : $COLLECTION$){&#10;    $SELECTION$&#10;}" description="" toReformat="true" toShortenFQNames="false">
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ITEM_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="COLLECTION" expression="" defaultValue="" alwaysStopAt="true" />
@@ -235,5 +235,10 @@
     <context>
       <option name="APEX" value="true" />
     </context>
+  </template>
+  <template name="fori" value="for (Integer $INDEX$ = 0; $INDEX$ &lt; $LIMIT$; $INDEX$++) {&#10;  $SELECTION$&#10;}" description="Create iteration loop" toReformat="true" toShortenFQNames="false">
+    <variable name="INDEX" expression="apexSuggestVariableName(&quot;Integer&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
