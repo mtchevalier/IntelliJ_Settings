@@ -166,8 +166,13 @@
   <action id="QuickEvaluateExpression">
     <keyboard-shortcut first-keystroke="ctrl alt f8" />
   </action>
+  <action id="QuickImplementations" />
   <action id="Runner.CloseView">
     <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift ctrl alt j" />
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
   </action>
   <action id="TagDocumentationNavigation" />
   <action id="ToggleZenMode">
