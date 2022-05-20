@@ -211,8 +211,24 @@
     </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.replace.ReplaceAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.filter.RemoveAllSpacesAction" />
       </UniversalActionModel>
+    </option>
+    <option name="replaceHistory">
+      <list>
+        <ReplaceCompositeModel>
+          <option name="date" value="1653077179851" />
+          <option name="items">
+            <list>
+              <ReplaceItemModel>
+                <option name="enabled" value="true" />
+                <option name="exclusiveGroup" value="1" />
+                <option name="from" value="&lt;/fullName" />
+              </ReplaceItemModel>
+            </list>
+          </option>
+        </ReplaceCompositeModel>
+      </list>
     </option>
     <option name="sortSettings">
       <SortSettings>
