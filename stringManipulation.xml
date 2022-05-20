@@ -211,7 +211,7 @@
     </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.filter.RemoveAllSpacesAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToCapitalizedSnakeCaseAction" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
