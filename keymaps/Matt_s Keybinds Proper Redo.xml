@@ -108,15 +108,13 @@
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
+  <action id="FileChooser.TogglePathBar" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
   <action id="GotoBookmark0" />
-  <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="ctrl n" />
-    <keyboard-shortcut first-keystroke="ctrl p" />
-  </action>
+  <action id="GotoFile" />
   <action id="GotoLine" />
   <action id="GotoRow" />
   <action id="GotoSymbol" />
