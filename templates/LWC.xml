@@ -19,7 +19,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="reactiveparam" value="'$$$SELECTION$'$END$" description="Reactive Parameter Wrapper - syntax to make a wire adapter parameter reactive" toReformat="false" toShortenFQNames="true">
+  <template name="reactiveparam" value="'$$$SELECTION$$END$'" description="Reactive Parameter Wrapper - syntax to make a wire adapter parameter reactive" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
