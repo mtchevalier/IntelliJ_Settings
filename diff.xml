@@ -27,7 +27,9 @@
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
       <entry key="CommitDialog">
-        <PlaceSettings />
+        <PlaceSettings>
+          <option name="READ_ONLY_LOCK" value="false" />
+        </PlaceSettings>
       </entry>
       <entry key="Default">
         <PlaceSettings>
