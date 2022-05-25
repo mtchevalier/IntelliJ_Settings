@@ -11,7 +11,6 @@
           <option name="username" value="matthew.chevalier@progyny.com.mattdev" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
-          <option name="confirmWrites" value="true" />
           <option name="connectionName" value="PGNY-QA" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
