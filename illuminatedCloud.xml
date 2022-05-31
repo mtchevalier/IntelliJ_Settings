@@ -37,6 +37,7 @@
         </IlluminatedCloudConnectionConfig>
       </list>
     </option>
+    <option name="createAllTestsRunConfig" value="false" />
     <option name="deployAllModifiedFiles" value="false" />
     <option name="lastChangeNotesVersion" value="2.2.2.0" />
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
@@ -45,6 +46,7 @@
     <option name="selectedTabIndex" value="1" />
     <option name="sfdxExecutablePath" value="C:\Program Files\sfdx\bin\sfdx.cmd" />
     <option name="sfdxLogCommands" value="true" />
+    <option name="sfdxPreferredProjectTemplateName" value="RECOMMENDED" />
     <option name="sfdxPushOnCreate" value="true" />
     <option name="sfdxPushOnSave" value="true" />
     <option name="showMetaXmlFiles" value="true" />
