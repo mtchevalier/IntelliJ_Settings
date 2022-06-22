@@ -1,0 +1,29 @@
+<templateSet group="Aura">
+  <template name="actrmethod" value="$METHOD_NAME$ : function(cmp, event, helper) {&#10;    &#10;}," description="" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="aservcallback" value="$METHOD_NAME$ : function(cmp) {&#10;    var action = cmp.get(&quot;c.$AURA_SERVICE_METHOD_NAME$&quot;);&#10;/*        &#10;    action.setParams({ &#10;        param1 : cmp.get(&quot;v.param1&quot;) &#10;    });&#10;*/&#10;    action.setCallback(this, function(response) {&#10;        var state = response.getState();&#10;        if (state === &quot;SUCCESS&quot;) {&#10;            var res = response.getReturnValue();&#10;            console.log('$METHOD_NAME$ res:', JSON.parse(JSON.stringify(res)));&#10;        }&#10;        else if (state === &quot;INCOMPLETE&quot;) {&#10;&#10;        }&#10;        else if (state === &quot;ERROR&quot;) {&#10;            var errors = response.getError();&#10;            if (errors) {&#10;                if (errors[0] &amp;&amp; errors[0].message) {&#10;                    console.log(&quot;Error message: &quot; + &#10;                             errors[0].message);&#10;                }&#10;            } else {&#10;                console.log(&quot;Unknown error&quot;);&#10;            }&#10;        }&#10;    });&#10;    $A.enqueueAction(action);&#10;}," description="" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="AURA_SERVICE_METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="getcompattr" value="event.getSource().get(&quot;v.$ATTR_NAME$&quot;)" description="Retrieve a component attribute that’s passed to the event" toReformat="false" toShortenFQNames="true">
+    <variable name="ATTR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

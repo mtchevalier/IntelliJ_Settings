@@ -1,0 +1,9 @@
+<templateSet group="xsl">
+  <template name="getRecordTypeIdFromName" value="Schema.SObjectType.$SOBJECT_TYPE$.getRecordTypeInfosByName().get('$RECORD_TYPE_NAME$').getRecordTypeId()" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="SOBJECT_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RECORD_TYPE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+</templateSet>

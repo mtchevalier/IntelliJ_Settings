@@ -1,0 +1,244 @@
+<templateSet group="Apex">
+  <template name="ddebug" value="System.debug('MATDEV $THING$:');&#10;System.debug($THING$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="THING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="tsttmpstatic" value="@IsTest&#10;static void $METHOD_NAME$_TEST () {&#10;    Test.startTest();&#10;    {&#10;        $RETURN_TYPE$ res = $CLASS_NAME$.$METHOD_NAME$($ARGS$);&#10;        //System.assertEquals('expected', 'actual');&#10;    }&#10;    Test.stopTest();&#10;}" description="Generic test template for static methods" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="awrapprop" value="@AuraEnabled&#10;public $TYPE$ $NAME$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="getfakeid" value="sfab_FabricatedSObject.getFakeId($SOBJECT_API_NAME$.SObjectType)$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="SOBJECT_API_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="triggerhandler" value="@TestVisible&#10;private List&lt;$SOBJECT_TYPE$&gt;        oldList;&#10;@TestVisible&#10;private List&lt;$SOBJECT_TYPE$&gt;        newList;&#10;@TestVisible&#10;private Map&lt;Id, $SOBJECT_TYPE$&gt;     oldMap;&#10;@TestVisible&#10;private Map&lt;Id, $SOBJECT_TYPE$&gt;     newMap;&#10;&#10;public $CLASS_PREFIX$TriggerHandler() {&#10;    this.oldList    = (List&lt;$SOBJECT_TYPE$&gt;) Trigger.old;&#10;    this.newList    = (List&lt;$SOBJECT_TYPE$&gt;) Trigger.new;&#10;    this.oldMap     = (Map&lt;Id, $SOBJECT_TYPE$&gt;) Trigger.oldMap;&#10;    this.newMap     = (Map&lt;Id, $SOBJECT_TYPE$&gt;) Trigger.newMap;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="SOBJECT_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="sfabtmp" value="($SOBJECT$) new sfab_FabricatedSObject($SOBJECT$.class)&#10;        .setField($SOBJECT$.Id, sfab_FabricatedSObject.getFakeId($SOBJECT$.SObjectType))&#10;        //.setField($SOBJECT$.fieldName, 'value')&#10;        .toSObject()" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="SOBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="sfabField" value=".setField($SOBJECT$.$FIELD$, '$VALUE$')$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="SOBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="DTDMSScript" value="dealer.TestClassUtil tc = new dealer.TestClassUtil();&#10;tc.insertDMSSettings();" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="foreach" value="for($TYPE$ $ITEM_VAR$ : $COLLECTION$){&#10;    $SELECTION$&#10;}" description="" toReformat="true" toShortenFQNames="false">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM_VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLLECTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="sfabtmpAssign" value="$SOBJECT$ $VAR$ = ($SOBJECT$) new sfab_FabricatedSObject($SOBJECT$.class)&#10;        .setField($SOBJECT$.Id, sfab_FabricatedSObject.getFakeId($SOBJECT$.SObjectType))&#10;        //.setField($SOBJECT$.fieldName, 'value')&#10;        .toSObject();" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="SOBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="DAdeclaration" value="@TestVisible&#10;private static $CLASS_NAME$DA.DAI DA = new $CLASS_NAME$DA();" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="httpResponseToClass" value="$APEX_CLASS$ reponseObject = ($APEX_CLASS$)JSON.deserialize(response.getBody(), $APEX_CLASS$.class)" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="APEX_CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="calloutmock" value="Test.setMock(HttpCalloutMock.class, new $CALLOUT_CLASS_NAME$());&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CALLOUT_CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="doesObjectUseRecordTypes" value="Schema.SObjectType.dealer__Service_Vehicle__c.getRecordTypeInfosByName().size()&gt;1" description="Returns true if object uses record types" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="tsttmp" value="@IsTest&#10;static void $METHOD_NAME$_TEST () {&#10;    $CLASS_NAME$ instance = new $CLASS_NAME$();&#10;    Test.startTest();&#10;    {&#10;        $RETURN_TYPE$ res = instance.$METHOD_NAME$($ARGS$);&#10;        //System.assertEquals('expected', 'actual');&#10;    }&#10;    Test.stopTest();&#10;}" description="Generic test template" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="sendEmail" value="String emailBody = $END$;&#10;&#10;Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();&#10;mail.setToAddresses(new List&lt;String&gt;{$EMAIL_ADDRESSES$});&#10;mail.setSubject($SUBJECT$);&#10;mail.setHtmlBody(emailBody);&#10;mail.setPlainTextBody(emailBody);&#10;&#10;if(!Test.isRunningTest()) {&#10;    Messaging.sendEmail(new Messaging.SingleEmailMessage[]{mail});&#10;}" description="Template to send email from apex" toReformat="false" toShortenFQNames="true">
+    <variable name="EMAIL_ADDRESSES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SUBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="getPickListValues" value="String copyReady = '\n';&#10;&#10;for( Schema.PicklistEntry pickListVal : $OBJECT_API_NAME$.$FIELD_API_NAME$.getDescribe().getPicklistValues()){&#10;    System.debug(pickListVal.getValue());&#10;    copyReady+= pickListVal.getValue() + '\n';&#10;}     &#10;System.debug('MATDEV copyReady:');&#10;System.debug(copyReady);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="OBJECT_API_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD_API_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="switchApex" value="switch on $EXPRESSION$ {&#10;    when $VALUE1$ {&#10;    &#10;    }&#10;    when $VALUE2$ {&#10;    &#10;    }&#10;    when else {}&#10;}" description="Apex switch statement" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPRESSION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="setHttpMock" value="Test.setMock(HttpCalloutMock.class, new $MOCK_CLASS$());" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="MOCK_CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="debug" value="System.debug($END$);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="isSandbox" value="OrganizationSingleton.getInstance().isSandbox" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="custException" value="public class $CUSTOM_EXCEPTION_NAME$ extends Exception{}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CUSTOM_EXCEPTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="getListCustomSettingsAll" value="Map&lt;Id, $API_NAME$&gt; idToSetting = $API_NAME$.getAll();" description="Get all instances of a custom setting in the db" toReformat="false" toShortenFQNames="true">
+    <variable name="API_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="getListCustomSettingsInstance" value="$API_NAME$ $VAR$ = $API_NAME$.getInstance('$INSTANCE_NAME$');" description="Get instance of a custom setting by name" toReformat="false" toShortenFQNames="true">
+    <variable name="API_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INSTANCE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="debugcat" value="System.debug('MATDEV $THING$: '+$THING$);&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="THING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="getFieldLabels" value="List&lt;String&gt; fieldApiNames = new List&lt;String&gt;{$END$};&#10;&#10;Map&lt;String, Schema.SObjectType&gt; schemaMap = Schema.getGlobalDescribe();&#10;Schema.SObjectType leadSchema = schemaMap.get('$SOBJECT_TYPE$');&#10;Map&lt;String, Schema.SObjectField&gt; fieldMap = leadSchema.getDescribe().fields.getMap();&#10;&#10;List&lt;String&gt; debugLines = new List&lt;String&gt;();&#10;for (String fieldName: fieldApiNames) {&#10;    DescribeFieldResult dfr = fieldMap.get(fieldName).getDescribe();&#10;    debugLines.add(dfr.getLabel()+' -&gt; '+fieldName+' ('+dfr.getType()+')');&#10;}&#10;debugLines.sort();&#10;System.debug('!!!LEGEND!!! &quot;Label -&gt; API Name (Type)&quot;');&#10;for(String line : debugLines) {&#10;    System.debug(line);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="SOBJECT_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="getFieldsWithDuplicateLabels" value="String objectName = '$OBJECT_API_NAME$';&#10;&#10;List&lt;Schema.DescribeSObjectResult&gt; describeSobjectsResult = Schema.describeSObjects(new List&lt;String&gt;{objectName});&#10;String objectLabel = describeSobjectsResult[0].getLabel();&#10;Map&lt;String, Schema.SObjectField&gt; allFields = describeSobjectsResult[0].fields.getMap();&#10;Map&lt;String, List&lt;String&gt;&gt; labelToApiNames = new Map&lt;String, List&lt;String&gt;&gt;();&#10;&#10;for(Schema.SObjectField fieldSchema : allFields.values()) {&#10;    DescribeFieldResult describeFieldResult = fieldSchema.getDescribe();&#10;    String label = describeFieldResult.getLabel();&#10;    String apiName = describeFieldResult.getName();&#10;    &#10;    if(labelToApiNames.containsKey(label)){&#10;        labelToApiNames.get(label).add(apiName);    &#10;    } else {&#10;        labelToApiNames.put(label, new List&lt;String&gt;{apiName});&#10;    }&#10;}&#10;&#10;System.debug('Fields with duplicate labels');&#10;for(String label : labelToApiNames.keySet()) {&#10;    List&lt;String&gt; apiNames = labelToApiNames.get(label);&#10;    if(apiNames.size() &gt; 1) {&#10;        System.debug(label+': '+apiNames);&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="OBJECT_API_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="log1" value="LOG.addEntry('$END$');" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="log2" value="LOG.addEntry('$CONTENT$ = '+$CONTENT$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="REST_GetEndpoint" value="@HttpGet&#10;global static Account $METHOD_NAME$() {&#10;    RestRequest req = RestContext.request;&#10;    RestResponse res = RestContext.response;&#10;    String accountId = req.requestURI.substring(req.requestURI.lastIndexOf('/')+1);&#10;    Account result = [SELECT Id, Name, Phone, Website FROM Account WHERE Id = :accountId];&#10;    return result;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="REST_PostEndpoint" value="@HttpPost&#10;global static String $METHOD_NAME$($END$) {&#10;    Account account = new Account();&#10;    account.Name = name;&#10;    account.phone = phone;&#10;    account.website = website;&#10;    insert account;&#10;    return account.Id;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="tstSetup" value="@TestSetup&#10;static void setup() {&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="REST_GetCallout" value="Http http = new Http();&#10;HttpRequest req = new HttpRequest();&#10;req.setEndpoint('$ENDPOINT$');&#10;req.setMethod('GET');&#10;HttpResponse res = http.send(req);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="ENDPOINT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="getCustomLabel" value="System.Label.$END$;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="debugCom" value="System.debug('MATDEV $END$');" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="getMdtAll" value="Map&lt;Id, $API_NAME$&gt; idToMdt = $API_NAME$.getAll();" description="Get all instances of Custom Metadata Type" toReformat="false" toShortenFQNames="true">
+    <variable name="API_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="getMdtInstance" value="$API_NAME$ $VAR$ = $API_NAME$.getInstance('$DEVELOPER_NAME$');" description="Get instance of a Custom Metadata Type record by DeveloperName" toReformat="false" toShortenFQNames="true">
+    <variable name="API_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEVELOPER_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="singleEmailMessage" value="Messaging.SingleEmailMessage em = new Messaging.SingleEmailMessage();&#10;em.subject = ;&#10;em.htmlBody = ;&#10;em.plainTextBody = ;&#10;em.saveAsActivity = false;&#10;em.orgWideEmailAddressId = ;&#10;em.toAddresses = new List&lt;String&gt;{};&#10;em.bccAddresses = new List&lt;String&gt; {OrganizationSingleton.getInstance().isSandbox ? 'bcctest@progyny.com' : 'progynybcc@progyny.com'};" description="Syntax for generating email" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="fori" value="for (Integer $INDEX$ = 0; $INDEX$ &lt; $LIMIT$; $INDEX$++) {&#10;  $SELECTION$&#10;}" description="Create iteration loop" toReformat="true" toShortenFQNames="false">
+    <variable name="INDEX" expression="apexSuggestVariableName(&quot;Integer&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
