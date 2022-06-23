@@ -3,6 +3,14 @@
     <option name="connectionConfigs">
       <list>
         <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="ASR-DEV" />
+          <option name="connectionType" value="OAUTH" />
+          <option name="ensureFieldReadAccess" value="false" />
+          <option name="loginUrl" value="" />
+          <option name="organizationType" value="OAUTH" />
+          <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.matthew" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
           <option name="connectionName" value="ASR-QA" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
@@ -25,7 +33,7 @@
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
     <option name="selectedConnectionIndex" value="0" />
     <option name="selectedTabIndex" value="1" />
-    <option name="sfdxExecutablePath" value="C:\Users\matcheva1\AppData\Roaming\npm\sfdx.cmd" />
+    <option name="sfdxExecutablePath" value="C:\Program Files\sfdx\bin\sfdx.cmd" />
     <option name="sfdxLogCommands" value="true" />
     <option name="sfdxPushOnCreate" value="true" />
     <option name="sfdxPushOnSave" value="true" />
