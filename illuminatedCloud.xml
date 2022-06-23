@@ -30,7 +30,6 @@
     <option name="sfdxLogCommands" value="true" />
     <option name="sfdxPushOnCreate" value="true" />
     <option name="sfdxPushOnSave" value="true" />
-    <option name="showMetaXmlFiles" value="true" />
     <option name="subscriptionManagementPolicy" value="NEVER_UPDATE" />
   </component>
 </application>
