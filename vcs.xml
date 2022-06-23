@@ -10,6 +10,10 @@
           <option name="url" value="http://bitbucket.org" />
           <option name="userName" value="Matthew_Chevalier_PS" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://bitbucket.org/ccsfasr/salesforce" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\matcheva1\IdeaProjects" />
