@@ -49,11 +49,12 @@
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
     <option name="selectedConnectionIndex" value="0" />
-    <option name="selectedTabIndex" value="1" />
+    <option name="selectedTabIndex" value="2" />
     <option name="sfdxExecutablePath" value="C:\Program Files\sfdx\bin\sfdx.cmd" />
     <option name="sfdxLogCommands" value="true" />
     <option name="sfdxPushOnCreate" value="true" />
     <option name="sfdxPushOnSave" value="true" />
+    <option name="showMetaXmlFiles" value="true" />
     <option name="subscriptionManagementPolicy" value="NEVER_UPDATE" />
   </component>
 </application>
