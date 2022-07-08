@@ -241,4 +241,9 @@
     <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="threatPhrase" value="Threat Intelligence Passphrase: 9fbef606107a605d69c0edbcd8029e5d&#10;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
 </templateSet>
