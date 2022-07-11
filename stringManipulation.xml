@@ -3,36 +3,6 @@
     <option name="columnAlignerHistory">
       <list>
         <ColumnAlignerModel>
-          <option name="added" value="1613766064894" />
-          <option name="columnSortOrder" value="" />
-          <option name="maxSeparatorsPerLine" value="" />
-          <option name="separators">
-            <list>
-              <option value="=" />
-            </list>
-          </option>
-        </ColumnAlignerModel>
-        <ColumnAlignerModel>
-          <option name="added" value="1613766124584" />
-          <option name="columnSortOrder" value="" />
-          <option name="maxSeparatorsPerLine" value="" />
-          <option name="separators">
-            <list>
-              <option value="=" />
-            </list>
-          </option>
-        </ColumnAlignerModel>
-        <ColumnAlignerModel>
-          <option name="added" value="1613766159020" />
-          <option name="columnSortOrder" value="" />
-          <option name="maxSeparatorsPerLine" value="" />
-          <option name="separators">
-            <list>
-              <option value="=" />
-            </list>
-          </option>
-        </ColumnAlignerModel>
-        <ColumnAlignerModel>
           <option name="added" value="1614783078653" />
           <option name="columnSortOrder" value="" />
           <option name="maxSeparatorsPerLine" value="" />
@@ -216,11 +186,41 @@
             </list>
           </option>
         </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1657553763439" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="from" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1657554080905" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value=":" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1657554405234" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value=":" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
       </list>
     </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToScreamingSnakeCaseOrCamelCaseAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.WordsCapitalizeAction" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
