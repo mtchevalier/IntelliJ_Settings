@@ -10,6 +10,7 @@
   <component name="DaemonCodeAnalyzerSettings" profile="Illuminated Cloud" />
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
+    <option name="STRIP_TRAILING_SPACES" value="None" />
   </component>
   <component name="InlayHintsSettings">
     <option name="disabledHintProviderIds">
