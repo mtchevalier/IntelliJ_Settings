@@ -1,0 +1,268 @@
+<application>
+  <component name="StringManipulationState">
+    <option name="columnAlignerHistory">
+      <list>
+        <ColumnAlignerModel>
+          <option name="added" value="1614783078653" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="=" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1614783093097" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="=" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1615390776879" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="=&gt;" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1645122746666" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="=&gt;" />
+            </list>
+          </option>
+          <option name="spaceBeforeSeparator" value="false" />
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1651609807639" />
+          <option name="alignBy" value="VALUES" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="," />
+            </list>
+          </option>
+          <option name="spaceBeforeSeparator" value="false" />
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1652116229441" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="from" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1653081940906" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="from" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1653081950974" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="from" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1653082214713" />
+          <option name="alignBy" value="VALUES" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="," />
+            </list>
+          </option>
+          <option name="spaceBeforeSeparator" value="false" />
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1653353010073" />
+          <option name="alignBy" value="VALUES" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value=":" />
+            </list>
+          </option>
+          <option name="spaceBeforeSeparator" value="false" />
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1655315351742" />
+          <option name="alignBy" value="VALUES" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value=":" />
+            </list>
+          </option>
+          <option name="spaceBeforeSeparator" value="false" />
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1656098373745" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="{" />
+              <option value="}" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1656599230696" />
+          <option name="alignBy" value="VALUES" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="," />
+            </list>
+          </option>
+          <option name="spaceBeforeSeparator" value="false" />
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1656600327139" />
+          <option name="alignBy" value="VALUES" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="," />
+            </list>
+          </option>
+          <option name="spaceBeforeSeparator" value="false" />
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1656700265775" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value=":" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1656700755887" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value=":" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1657203135966" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="from" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1657553763439" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="from" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1657554080905" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value=":" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1657554405234" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value=":" />
+            </list>
+          </option>
+        </ColumnAlignerModel>
+      </list>
+    </option>
+    <option name="lastAction">
+      <UniversalActionModel>
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToScreamingSnakeCaseOrCamelCaseAction" />
+      </UniversalActionModel>
+    </option>
+    <option name="replaceHistory">
+      <list>
+        <ReplaceCompositeModel>
+          <option name="date" value="1653077179851" />
+          <option name="items">
+            <list>
+              <ReplaceItemModel>
+                <option name="enabled" value="true" />
+                <option name="exclusiveGroup" value="1" />
+                <option name="from" value="&lt;/fullName" />
+              </ReplaceItemModel>
+            </list>
+          </option>
+        </ReplaceCompositeModel>
+      </list>
+    </option>
+    <option name="sortSettings">
+      <SortSettings>
+        <option name="preserveLeadingSpaces" value="false" />
+        <option name="sortType" value="LINE_LENGTH_SHORT_LONG" />
+      </SortSettings>
+    </option>
+    <option name="sortSettingsMap">
+      <map>
+        <entry key="SortAction">
+          <value>
+            <SortSettings>
+              <option name="sortType" value="LINE_LENGTH_SHORT_LONG" />
+            </SortSettings>
+          </value>
+        </entry>
+        <entry key="StringManipulation.SortLinesBySubSelectionAction.SortSettings">
+          <value>
+            <SortSettings>
+              <option name="preserveLeadingSpaces" value="false" />
+            </SortSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="version" value="2" />
+  </component>
+</application>
