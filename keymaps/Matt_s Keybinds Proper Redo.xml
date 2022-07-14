@@ -114,6 +114,7 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="GotoAction" />
   <action id="GotoBookmark0" />
   <action id="GotoFile" />
   <action id="GotoLine" />
