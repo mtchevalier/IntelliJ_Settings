@@ -246,4 +246,11 @@
       <option name="APEX" value="true" />
     </context>
   </template>
+  <template name="debuginline" value="System.debug('MATDEV $THING1$: '+$THING2$);&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="THING1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THING2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
 </templateSet>
