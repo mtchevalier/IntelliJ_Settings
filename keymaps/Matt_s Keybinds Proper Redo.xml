@@ -124,7 +124,9 @@
   <action id="IlluminatedCloud.AddToModuleContents">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
   </action>
-  <action id="IlluminatedCloud.AnonymousApex" />
+  <action id="IlluminatedCloud.AnonymousApex">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
   <action id="IlluminatedCloud.AnonymousApex.Execute">
     <keyboard-shortcut first-keystroke="shift ctrl alt a" />
   </action>
@@ -138,7 +140,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt f12" />
     <keyboard-shortcut first-keystroke="shift ctrl alt delete" />
   </action>
-  <action id="IlluminatedCloud.SoqlQuery" />
+  <action id="IlluminatedCloud.SoqlQuery">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
   <action id="IlluminatedCloud.SoqlQuery.Execute">
     <keyboard-shortcut first-keystroke="shift ctrl alt q" />
   </action>
@@ -146,6 +150,8 @@
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="IntroduceTypeAlias" />
+  <action id="Jdbc.OpenConsole.New" />
+  <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
