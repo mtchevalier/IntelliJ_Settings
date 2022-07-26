@@ -1,1 +1,31 @@
-<code_scheme name="Default" version="173" />
+<code_scheme name="Default" version="173">
+  <ApexCodeStyleSettings>
+    <option name="ALIGN_MULTILINE_CONCATENATED_STRINGS" value="true" />
+    <option name="SPACE_BEFORE_WHEN_LBRACE" value="false" />
+    <option name="SPACE_WITHIN_QUERY_BRACKETS" value="true" />
+    <option name="SPACE_WITHIN_SUB_QUERY_PARENTHESES" value="true" />
+  </ApexCodeStyleSettings>
+  <codeStyleSettings language="Apex">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="SPACE_BEFORE_SEMICOLON" value="true" />
+    <option name="SPACE_WITHIN_METHOD_PARENTHESES" value="true" />
+    <option name="SPACE_WITHIN_FOR_PARENTHESES" value="true" />
+    <option name="SPACE_AFTER_TYPE_CAST" value="false" />
+    <option name="SPACE_BEFORE_IF_PARENTHESES" value="false" />
+    <option name="SPACE_BEFORE_WHILE_PARENTHESES" value="false" />
+    <option name="SPACE_BEFORE_FOR_PARENTHESES" value="false" />
+    <option name="SPACE_BEFORE_METHOD_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_IF_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_WHILE_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_FOR_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_DO_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_SWITCH_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_TRY_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_CATCH_LBRACE" value="false" />
+    <option name="SPACE_BEFORE_FINALLY_LBRACE" value="false" />
+    <option name="SPACE_WITHIN_ANNOTATION_PARENTHESES" value="true" />
+    <indentOptions>
+      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
