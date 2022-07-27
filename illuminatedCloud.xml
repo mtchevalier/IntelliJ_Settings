@@ -11,7 +11,7 @@
           <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.matthew" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="ASR-QA" />
+          <option name="connectionName" value="" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
           <option name="loginUrl" value="" />
