@@ -219,7 +219,7 @@
     </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.replace.ReplaceAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.filter.RemoveAllSpacesAction" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
