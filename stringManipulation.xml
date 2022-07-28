@@ -3,30 +3,6 @@
     <option name="columnAlignerHistory">
       <list>
         <ColumnAlignerModel>
-          <option name="added" value="1653353010073" />
-          <option name="alignBy" value="VALUES" />
-          <option name="columnSortOrder" value="" />
-          <option name="maxSeparatorsPerLine" value="" />
-          <option name="separators">
-            <list>
-              <option value=":" />
-            </list>
-          </option>
-          <option name="spaceBeforeSeparator" value="false" />
-        </ColumnAlignerModel>
-        <ColumnAlignerModel>
-          <option name="added" value="1655315351742" />
-          <option name="alignBy" value="VALUES" />
-          <option name="columnSortOrder" value="" />
-          <option name="maxSeparatorsPerLine" value="" />
-          <option name="separators">
-            <list>
-              <option value=":" />
-            </list>
-          </option>
-          <option name="spaceBeforeSeparator" value="false" />
-        </ColumnAlignerModel>
-        <ColumnAlignerModel>
           <option name="added" value="1656098373745" />
           <option name="columnSortOrder" value="" />
           <option name="maxSeparatorsPerLine" value="" />
@@ -215,17 +191,41 @@
             </list>
           </option>
         </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1659010658747" />
+          <option name="alignBy" value="VALUES" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="," />
+            </list>
+          </option>
+          <option name="spaceBeforeSeparator" value="false" />
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1659010853391" />
+          <option name="alignBy" value="VALUES" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="," />
+            </list>
+          </option>
+          <option name="spaceBeforeSeparator" value="false" />
+        </ColumnAlignerModel>
       </list>
     </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.align.AlignCaretsAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.replace.ReplaceAction" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
       <list>
         <ReplaceCompositeModel>
-          <option name="date" value="1653077179851" />
+          <option name="date" value="1659010977839" />
           <option name="items">
             <list>
               <ReplaceItemModel>
