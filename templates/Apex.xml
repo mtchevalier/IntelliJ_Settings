@@ -253,7 +253,7 @@
       <option name="APEX" value="true" />
     </context>
   </template>
-  <template name="getRecordTypeId" value="Schema.SObjectType.$OBJECT_API$.getRecordTypeInfosByName().get('$RT_NAME$').getRecordTypeId();" toReformat="false" toShortenFQNames="true">
+  <template name="getRecordTypeId" value="Schema.SObjectType.$OBJECT_API$.getRecordTypeInfosByName().get('$RT_NAME$').getRecordTypeId();" description="" toReformat="false" toShortenFQNames="true">
     <variable name="OBJECT_API" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
