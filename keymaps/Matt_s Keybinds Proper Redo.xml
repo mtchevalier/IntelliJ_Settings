@@ -44,6 +44,7 @@
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
+  <action id="Console.TableResult.CloneColumn" />
   <action id="Console.TableResult.CompareCells" />
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
@@ -70,6 +71,7 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
+  <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="button2" />
   </action>
@@ -113,6 +115,7 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
   </action>
+  <action id="GotoAction" />
   <action id="GotoBookmark0" />
   <action id="GotoFile" />
   <action id="GotoLine" />
@@ -122,7 +125,9 @@
   <action id="IlluminatedCloud.AddToModuleContents">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
   </action>
-  <action id="IlluminatedCloud.AnonymousApex" />
+  <action id="IlluminatedCloud.AnonymousApex">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
   <action id="IlluminatedCloud.AnonymousApex.Execute">
     <keyboard-shortcut first-keystroke="shift ctrl alt a" />
   </action>
@@ -130,7 +135,15 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
   <action id="IlluminatedCloud.CompareWithServer.Sfdx" />
-  <action id="IlluminatedCloud.SoqlQuery" />
+  <action id="IlluminatedCloud.SfdxPush">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f9" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt f10" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt f12" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt delete" />
+  </action>
+  <action id="IlluminatedCloud.SoqlQuery">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
   <action id="IlluminatedCloud.SoqlQuery.Execute">
     <keyboard-shortcut first-keystroke="shift ctrl alt q" />
   </action>
@@ -138,6 +151,8 @@
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="IntroduceTypeAlias" />
+  <action id="Jdbc.OpenConsole.New" />
+  <action id="Jdbc.OpenConsole.New.Generate" />
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
@@ -154,6 +169,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="NextOccurence" />
+  <action id="NextProjectWindow" />
   <action id="ParameterInfo" />
   <action id="PreviousEditorTab">
     <keyboard-shortcut first-keystroke="shift alt left" />
@@ -172,10 +188,17 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
     <keyboard-shortcut first-keystroke="shift ctrl i" />
   </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+  </action>
   <action id="TagDocumentationNavigation" />
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="ctrl alt space" />
   </action>
+  <action id="UML.ShowChanges" />
   <action id="Uml.ShowDiff" />
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="ctrl back_slash" />

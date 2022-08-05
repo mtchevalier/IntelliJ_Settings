@@ -11,20 +11,23 @@
           <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.matthew" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="ASR-QA" />
+          <option name="checkForConflicts" value="true" />
+          <option name="confirmWrites" value="true" />
+          <option name="connectionName" value="ASR-TEST-3" />
+          <option name="connectionType" value="OAUTH" />
+          <option name="disableDeployOnSaveWhenConfirmWrites" value="true" />
+          <option name="ensureFieldReadAccess" value="false" />
+          <option name="loginUrl" value="" />
+          <option name="organizationType" value="OAUTH" />
+          <option name="username" value="matthew.chevalier@publicissapient.com.asrtest3" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="matthew.chevalier@publicissapient.com.qa" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
           <option name="loginUrl" value="" />
           <option name="organizationType" value="OAUTH" />
-          <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.qa" />
-        </IlluminatedCloudConnectionConfig>
-        <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="DevHub" />
-          <option name="connectionType" value="OAUTH" />
-          <option name="ensureFieldReadAccess" value="false" />
-          <option name="loginUrl" value="" />
-          <option name="organizationType" value="DEVHUB" />
-          <option name="username" value="matthew.t.chevalier@gmail.com.stationforce" />
+          <option name="username" value="matthew.chevalier@publicissapient.com.qa" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
           <option name="connectionName" value="PGNY-DEV" />
@@ -62,10 +65,11 @@
     </option>
     <option name="createAllTestsRunConfig" value="false" />
     <option name="deployAllModifiedFiles" value="false" />
-    <option name="lastChangeNotesVersion" value="2.2.2.7" />
+    <option name="lastChangeNotesVersion" value="2.2.3.0" />
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
-    <option name="selectedConnectionIndex" value="4" />
+    <option name="selectedConnectionIndex" value="1" />
+    <option name="selectedTabIndex" value="1" />
     <option name="sfdxExecutablePath" value="C:\Program Files\sfdx\bin\sfdx.cmd" />
     <option name="sfdxLogCommands" value="true" />
     <option name="sfdxPushOnCreate" value="true" />

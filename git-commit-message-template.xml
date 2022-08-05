@@ -1,0 +1,6 @@
+<application>
+  <component name="git-commit-message-template">
+    <option name="customRegex" value=".*" />
+    <option name="selectedBranchRegexRadioButtonIndex" value="2" />
+  </component>
+</application>

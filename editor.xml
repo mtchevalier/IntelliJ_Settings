@@ -1,4 +1,7 @@
 <application>
+  <component name="CodeInsightSettings">
+    <option name="HIGHLIGHT_SCOPE" value="true" />
+  </component>
   <component name="CodeVisionSettings">
     <option name="disabledCodeVisionProviderIds">
       <set>
@@ -8,6 +11,12 @@
     <option name="enabled" value="false" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Illuminated Cloud" />
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="STRIP_TRAILING_SPACES" value="None" />
+    <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
+    <option name="RENAME_VARIABLES_INPLACE" value="false" />
+  </component>
   <component name="InlayHintsSettings">
     <option name="disabledHintProviderIds">
       <set>
@@ -15,5 +24,11 @@
         <option value="JavaScript.js.type.hints" />
       </set>
     </option>
+  </component>
+  <component name="JSEditorOptions">
+    <option name="ESCAPE_PASTED_TEXT" value="false" />
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="insertQuotesForAttributeValue" value="false" />
   </component>
 </application>
