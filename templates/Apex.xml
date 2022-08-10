@@ -241,4 +241,23 @@
     <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="threatPhrase" value="Threat Intelligence Passphrase: 9fbef606107a605d69c0edbcd8029e5d&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="debuginline" value="System.debug('MATDEV $THING1$: '+$THING2$);&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="THING1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THING2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
+  <template name="getRecordTypeId" value="Schema.SObjectType.$OBJECT_API$.getRecordTypeInfosByName().get('$RT_NAME$').getRecordTypeId();" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="OBJECT_API" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
 </templateSet>
