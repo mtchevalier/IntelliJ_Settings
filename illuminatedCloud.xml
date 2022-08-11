@@ -3,22 +3,6 @@
     <option name="connectionConfigs">
       <list>
         <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="ASR-DEV" />
-          <option name="connectionType" value="OAUTH" />
-          <option name="ensureFieldReadAccess" value="false" />
-          <option name="loginUrl" value="" />
-          <option name="organizationType" value="OAUTH" />
-          <option name="username" value="matthew.chevalier@publicissapient.com.ccsf.matthew" />
-        </IlluminatedCloudConnectionConfig>
-        <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="ASR-QA" />
-          <option name="connectionType" value="OAUTH" />
-          <option name="ensureFieldReadAccess" value="false" />
-          <option name="loginUrl" value="" />
-          <option name="organizationType" value="OAUTH" />
-          <option name="username" value="matthew.chevalier@publicissapient.com.qa" />
-        </IlluminatedCloudConnectionConfig>
-        <IlluminatedCloudConnectionConfig>
           <option name="checkForConflicts" value="true" />
           <option name="confirmWrites" value="true" />
           <option name="connectionName" value="ASR-TEST-3" />
@@ -51,7 +35,7 @@
     <option name="lastChangeNotesVersion" value="2.2.3.0" />
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
-    <option name="selectedConnectionIndex" value="4" />
+    <option name="selectedConnectionIndex" value="0" />
     <option name="selectedTabIndex" value="1" />
     <option name="sfdxExecutablePath" value="C:\Program Files\sfdx\bin\sfdx.cmd" />
     <option name="sfdxLogCommands" value="true" />
