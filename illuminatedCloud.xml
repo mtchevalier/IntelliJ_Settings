@@ -3,14 +3,6 @@
     <option name="connectionConfigs">
       <list>
         <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="Renegade_Insurance_-_Dev" />
-          <option name="connectionType" value="SFDX" />
-          <option name="loginUrl" value="" />
-          <option name="organizationType" value="SCRATCH" />
-          <option name="useAlternateBehavior" value="true" />
-          <option name="username" value="test-92r7u4u6kmjp@example.com" />
-        </IlluminatedCloudConnectionConfig>
-        <IlluminatedCloudConnectionConfig>
           <option name="connectionName" value="RNGD-DevHub" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
