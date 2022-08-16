@@ -137,7 +137,9 @@
   <action id="IlluminatedCloud.CompareWithServer">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
-  <action id="IlluminatedCloud.CompareWithServer.Sfdx" />
+  <action id="IlluminatedCloud.CompareWithServer.Sfdx">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+  </action>
   <action id="IlluminatedCloud.SfdxPush">
     <keyboard-shortcut first-keystroke="shift ctrl alt f9" />
     <keyboard-shortcut first-keystroke="shift ctrl alt f10" />
