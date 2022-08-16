@@ -222,7 +222,7 @@
     </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.align.AlignCaretsAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToCamelCaseAction" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
