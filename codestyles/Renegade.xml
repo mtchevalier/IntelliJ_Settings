@@ -19,7 +19,8 @@
     <option name="KEYWORD_CASE_SOQL_SOSL_CONSTANT" value="1" />
   </ApexCodeStyleSettings>
   <HTMLCodeStyleSettings>
-    <option name="HTML_UNIFORM_INDENT" value="true" />
+    <option name="HTML_KEEP_BLANK_LINES" value="1" />
+    <option name="HTML_ENFORCE_QUOTES" value="true" />
   </HTMLCodeStyleSettings>
   <codeStyleSettings language="Apex">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
