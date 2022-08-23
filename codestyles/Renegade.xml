@@ -18,6 +18,9 @@
     <option name="KEYWORD_CASE_SOQL_SOSL_FUNCTION" value="5" />
     <option name="KEYWORD_CASE_SOQL_SOSL_CONSTANT" value="1" />
   </ApexCodeStyleSettings>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_UNIFORM_INDENT" value="true" />
+  </HTMLCodeStyleSettings>
   <codeStyleSettings language="Apex">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="LINE_COMMENT_ADD_SPACE" value="true" />
