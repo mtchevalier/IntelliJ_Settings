@@ -3,7 +3,7 @@
   <option name="ENABLE_SECOND_REFORMAT" value="true" />
   <option name="DO_NOT_FORMAT">
     <list>
-      <fileSet type="globPattern" pattern="*.{html,htm,xml}" />
+      <fileSet type="globPattern" pattern="*.{xml}" />
     </list>
   </option>
   <ApexCodeStyleSettings>
@@ -20,7 +20,7 @@
   </ApexCodeStyleSettings>
   <HTMLCodeStyleSettings>
     <option name="HTML_KEEP_BLANK_LINES" value="1" />
-    <option name="HTML_ENFORCE_QUOTES" value="true" />
+    <option name="HTML_QUOTE_STYLE" value="None" />
   </HTMLCodeStyleSettings>
   <JSCodeStyleSettings version="0">
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
@@ -39,7 +39,6 @@
     <option name="LINE_COMMENT_ADD_SPACE_ON_REFORMAT" value="true" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="SPACE_BEFORE_SEMICOLON" value="true" />
-    <option name="SPACE_WITHIN_METHOD_CALL_PARENTHESES" value="true" />
     <option name="SPACE_WITHIN_METHOD_PARENTHESES" value="true" />
     <option name="SPACE_WITHIN_IF_PARENTHESES" value="true" />
     <option name="SPACE_WITHIN_WHILE_PARENTHESES" value="true" />
@@ -52,6 +51,11 @@
     <option name="SPACE_WITHIN_ANNOTATION_PARENTHESES" value="true" />
     <indentOptions>
       <option name="SMART_TABS" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="HTML">
+    <indentOptions>
+      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
