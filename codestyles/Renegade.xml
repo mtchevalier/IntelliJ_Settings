@@ -32,6 +32,9 @@
     <option name="SPACE_BEFORE_ASYNC_ARROW_LPAREN" value="false" />
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
   </JSCodeStyleSettings>
+  <XML>
+    <option name="XML_KEEP_WHITESPACES" value="true" />
+  </XML>
   <codeStyleSettings language="Apex">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="LINE_COMMENT_ADD_SPACE" value="true" />
