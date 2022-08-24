@@ -57,9 +57,17 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="HTML">
-    <indentOptions>
-      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-    </indentOptions>
+    <arrangement>
+      <rules>
+        <section>
+          <rule>
+            <match>
+              <XML_ATTRIBUTE />
+            </match>
+          </rule>
+        </section>
+      </rules>
+    </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="SPACE_WITHIN_IF_PARENTHESES" value="true" />
