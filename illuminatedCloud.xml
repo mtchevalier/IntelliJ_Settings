@@ -25,7 +25,7 @@
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
     <option name="selectedConnectionIndex" value="1" />
-    <option name="selectedTabIndex" value="3" />
+    <option name="selectedTabIndex" value="1" />
     <option name="sfdxAlwaysForce" value="true" />
     <option name="sfdxExecutablePath" value="C:\Program Files\sfdx\bin\sfdx.cmd" />
     <option name="sfdxLogCommands" value="true" />
