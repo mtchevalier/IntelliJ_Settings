@@ -222,13 +222,13 @@
     </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.swap.SwapQuoteAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.replace.ReplaceAction" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
       <list>
         <ReplaceCompositeModel>
-          <option name="date" value="1659010977839" />
+          <option name="date" value="1661970253891" />
           <option name="items">
             <list>
               <ReplaceItemModel>
