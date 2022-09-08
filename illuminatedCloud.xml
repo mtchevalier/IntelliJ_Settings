@@ -11,14 +11,6 @@
           <option name="username" value="matthew.chevalier@renegadeinsurance.com" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="Renegade_Insurance_-_Dev" />
-          <option name="connectionType" value="SFDX" />
-          <option name="loginUrl" value="" />
-          <option name="organizationType" value="SCRATCH" />
-          <option name="useAlternateBehavior" value="true" />
-          <option name="username" value="test-jdcoc5x6clnr@example.com" />
-        </IlluminatedCloudConnectionConfig>
-        <IlluminatedCloudConnectionConfig>
           <option name="connectionName" value="Trailhead Playground" />
           <option name="connectionType" value="MDAPI" />
           <option name="ensureFieldReadAccess" value="false" />
@@ -41,6 +33,6 @@
     <option name="sfdxPushOnCreate" value="true" />
     <option name="sfdxPushOnRenameMove" value="true" />
     <option name="sfdxPushOnSave" value="true" />
-    <option name="subscriptionManagementPolicy" value="NEVER_UPDATE" />
+    <option name="subscriptionManagementPolicy" value="ALWAYS_UPDATE" />
   </component>
 </application>
