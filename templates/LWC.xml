@@ -53,7 +53,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="toastinvocation" value="this.dispatchEvent(&#10;    new ShowToastEvent({&#10;        title: '$TITLE$',&#10;        message: $MESSAGE$,&#10;        variant: '$VARIANT$',&#10;        mode: '$MODE$'&#10;    })&#10;);&#10;" description="syntax to create and fire a toast event" toReformat="false" toShortenFQNames="true">
+  <template name="toastinvocation" value="this.dispatchEvent(&#10;    new ShowToastEvent({&#10;        title: '$TITLE$',&#10;        message: $MESSAGE$,&#10;        variant: '$VARIANT$',&#10;        mode: '$MODE$'&#10;    })&#10;);" description="syntax to create and fire a toast event" toReformat="false" toShortenFQNames="true">
     <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VARIANT" expression="enum(&quot;success&quot;,&quot;error&quot;,&quot;info&quot;,&quot;warning&quot;)" defaultValue="" alwaysStopAt="true" />
