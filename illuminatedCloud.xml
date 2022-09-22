@@ -25,7 +25,7 @@
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
     <option name="selectedConnectionIndex" value="1" />
-    <option name="selectedTabIndex" value="3" />
+    <option name="selectedTabIndex" value="5" />
     <option name="sfdxAlwaysForce" value="true" />
     <option name="sfdxExecutablePath" value="C:\Program Files\sfdx\bin\sfdx.cmd" />
     <option name="sfdxLogCommands" value="true" />
@@ -34,7 +34,6 @@
     <option name="sfdxPushOnDelete" value="true" />
     <option name="sfdxPushOnRenameMove" value="true" />
     <option name="sfdxPushOnSave" value="true" />
-    <option name="showMetaXmlFiles" value="true" />
     <option name="subscriptionManagementPolicy" value="ALWAYS_UPDATE" />
   </component>
 </application>
