@@ -3,7 +3,7 @@
     <option name="connectionConfigs">
       <list>
         <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="DevHub" />
+          <option name="connectionName" value="OG DevHub" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
           <option name="loginUrl" value="" />
