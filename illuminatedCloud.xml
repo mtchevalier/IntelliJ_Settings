@@ -49,7 +49,6 @@
     <option name="deployAllModifiedFiles" value="false" />
     <option name="lastChangeNotesVersion" value="2.2.4.1" />
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
-    <option name="rememberLastForceDeploymentResultSelected" value="true" />
     <option name="selectedConnectionIndex" value="4" />
     <option name="selectedTabIndex" value="1" />
     <option name="sfdxAlwaysForce" value="true" />
