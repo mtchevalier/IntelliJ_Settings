@@ -113,7 +113,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="if" value="if($END$){&#10;    $SELECTION$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="if($END$){&#10;    $SELECTION$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
