@@ -224,7 +224,7 @@
     </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToScreamingSnakeCaseAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.swap.QuoteAction" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
