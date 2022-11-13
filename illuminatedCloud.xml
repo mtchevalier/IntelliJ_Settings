@@ -29,6 +29,14 @@
           <option name="username" value="matthew.chevalier@renegadeinsurance.com.qa" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
+          <option name="connectionName" value="SAL-99" />
+          <option name="connectionType" value="SFDX" />
+          <option name="loginUrl" value="" />
+          <option name="organizationType" value="SCRATCH" />
+          <option name="useAlternateBehavior" value="true" />
+          <option name="username" value="test-judb1pl4h5yv@example.com" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
           <option name="connectionName" value="Trailhead Playground" />
           <option name="connectionType" value="MDAPI" />
           <option name="ensureFieldReadAccess" value="false" />
@@ -43,7 +51,7 @@
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
     <option name="selectedConnectionIndex" value="3" />
-    <option name="selectedTabIndex" value="3" />
+    <option name="selectedTabIndex" value="1" />
     <option name="sfdxAlwaysForce" value="true" />
     <option name="sfdxExecutablePath" value="C:\Program Files\sfdx\bin\sfdx.cmd" />
     <option name="sfdxLogCommands" value="true" />
