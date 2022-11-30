@@ -93,12 +93,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="sldsgrid" value="&lt;div class=&quot;slds-grid&quot;&gt;$END$&#10;    $SELECTION$&#10;&lt;/div&gt;" description="wrap selection in slds-grid div" toReformat="true" toShortenFQNames="true">
+  <template name="grid" value="&lt;div class=&quot;slds-grid&quot;&gt;$END$&#10;    $SELECTION$&#10;&lt;/div&gt;" description="wrap selection in slds-grid div" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="sldscol" value="&lt;div class=&quot;slds-col&quot;&gt;$END$&#10;    $SELECTION$&#10;&lt;/div&gt;" description="wrap selection in slds-col div" toReformat="true" toShortenFQNames="true">
+  <template name="col" value="&lt;div class=&quot;slds-col&quot;&gt;$END$&#10;    $SELECTION$&#10;&lt;/div&gt;" description="wrap selection in slds-col div" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
