@@ -1,0 +1,8 @@
+Pythonid
+String Manipulation
+com.illuminatedcloud2.intellij
+com.j92.current-date-generator
+com.rspn.git
+intellij.prettierJS
+org.intellij.RegexpTester
+org.jetbrains.kotlin
