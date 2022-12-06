@@ -118,4 +118,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="switchFull" value="switch ($EXP$) {&#10;  case $CASE_TYPE$:&#10;    $END$&#10;    break;&#10;  default:&#10;    //DEFAULT BEHAVIOR;&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="EXP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CASE_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
