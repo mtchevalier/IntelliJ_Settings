@@ -1,0 +1,39 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="REFORMAT_ON_PASTE" value="4" />
+    <option name="HIGHLIGHT_SCOPE" value="true" />
+  </component>
+  <component name="CodeVisionSettings">
+    <option name="disabledCodeVisionProviderIds">
+      <set>
+        <option value="vcs.code.vision" />
+      </set>
+    </option>
+    <option name="enabled" value="false" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings" profile="Illuminated Cloud" />
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="STRIP_TRAILING_SPACES" value="None" />
+    <option name="SHOW_INTENTION_PREVIEW" value="true" />
+    <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
+    <option name="IS_CAMEL_WORDS" value="true" />
+    <option name="IS_DND_ENABLED" value="false" />
+    <option name="IS_MOUSE_CLICK_SELECTION_HONORS_CAMEL_WORDS" value="false" />
+    <option name="RENAME_VARIABLES_INPLACE" value="false" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="disabledHintProviderIds">
+      <set>
+        <option value="JavaScript.js.chain.hints" />
+        <option value="JavaScript.js.type.hints" />
+      </set>
+    </option>
+  </component>
+  <component name="JSEditorOptions">
+    <option name="ESCAPE_PASTED_TEXT" value="false" />
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="insertQuotesForAttributeValue" value="false" />
+  </component>
+</application>
