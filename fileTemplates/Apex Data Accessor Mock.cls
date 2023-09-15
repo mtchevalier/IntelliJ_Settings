@@ -1,11 +1,4 @@
-/**
- * ${NAME}
- * Date of file creation: ${MONTH_NAME_SHORT} ${DAY}, ${YEAR}
- * Originating Programmer: Matthew Chevalier
- *
- * Invoked By:
- *    
- */
+#parse("Apex File Header.cls")
 @IsTest
 public with sharing class ${NAME} implements .DAI{
 
