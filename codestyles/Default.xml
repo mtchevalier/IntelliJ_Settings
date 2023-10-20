@@ -1,6 +1,6 @@
 <code_scheme name="Default" version="173">
   <ApexCodeStyleSettings>
-    <option name="ALIGN_MULTILINE_CONCATENATED_STRINGS" value="true" />
+    <option name="ALIGN_MULTILINE_COMPOSITE_EXPRESSIONS" value="true" />
     <option name="SPACE_BEFORE_WHEN_LBRACE" value="false" />
     <option name="SPACE_WITHIN_QUERY_BRACKETS" value="true" />
     <option name="SPACE_WITHIN_SUB_QUERY_PARENTHESES" value="true" />

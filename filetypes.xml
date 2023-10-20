@@ -3,8 +3,8 @@
     <extensionMap>
       <mapping pattern="FTP-6693 - Perspecta EB" type="AUTO_DETECTED" />
       <mapping ext="space.kts" type="Kotlin" />
-      <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="gradle.kts" type="Kotlin" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="config" approved="true" type="XML" />
       <removed_mapping ext="md" approved="true" type="XML" />
