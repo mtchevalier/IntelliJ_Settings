@@ -253,9 +253,9 @@
     </option>
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToSnakeCaseAction" />
-        <option name="description" value="To snake_case" />
-        <option name="textWithMnemonic" value="To snake_case" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToCapitalizedSnakeCaseAction" />
+        <option name="description" value="To Capitalized_Snake_Case" />
+        <option name="textWithMnemonic" value="To Capitalized_Snake_Case" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
