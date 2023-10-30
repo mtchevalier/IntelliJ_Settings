@@ -5,6 +5,9 @@
     <option name="SPACE_WITHIN_QUERY_BRACKETS" value="true" />
     <option name="SPACE_WITHIN_SUB_QUERY_PARENTHESES" value="true" />
   </ApexCodeStyleSettings>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_QUOTE_STYLE" value="None" />
+  </HTMLCodeStyleSettings>
   <codeStyleSettings language="Apex">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="SPACE_BEFORE_SEMICOLON" value="true" />
