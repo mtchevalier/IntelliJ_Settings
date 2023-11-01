@@ -52,6 +52,7 @@
           <option name="username" value="matthew.chevalier@turnberrysolutions.com.post" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
+          <option name="confirmWrites" value="true" />
           <option name="connectionName" value="Turnberry-MNIT_QA" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
@@ -65,7 +66,7 @@
     <option name="lastChangeNotesVersion" value="2.2.8.8" />
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
-    <option name="selectedConnectionIndex" value="1" />
+    <option name="selectedConnectionIndex" value="6" />
     <option name="selectedTabIndex" value="1" />
     <option name="sfdxAlwaysForce" value="true" />
     <option name="sfdxLogCommands" value="true" />
