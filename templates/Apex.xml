@@ -265,4 +265,13 @@
       <option name="APEX" value="true" />
     </context>
   </template>
+  <template name="invocableMethod" value="@InvocableMethod(Label='$LABEL$' Description='$DESC$' Callout=$IS_CALLOUT$ Category='APEX')&#10;public static void $METHOD_NAME$(){&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IS_CALLOUT" expression="enum(&quot;true&quot;, &quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
+  </template>
 </templateSet>
