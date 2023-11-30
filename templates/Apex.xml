@@ -34,7 +34,7 @@
       <option name="APEX" value="true" />
     </context>
   </template>
-  <template name="sfabtmp" value="($SOBJECT$) new sfab_FabricatedSObject($SOBJECT$.class)&#10;        .setField($SOBJECT$.Id, sfab_FabricatedSObject.getFakeId($SOBJECT$.SObjectType))&#10;        //.setField($SOBJECT$.fieldName, 'value')&#10;        .toSObject()" description="" toReformat="false" toShortenFQNames="true">
+  <template name="sfabtmp" value="($SOBJECT$) new sfab_FabricatedSObject($SOBJECT$.class)&#10;        .setField($SOBJECT$.Id, TriggerTestUtility.getFakeId($SOBJECT$.SObjectType))&#10;        //.setField($SOBJECT$.fieldName, 'value')&#10;        .toSObject()" description="" toReformat="false" toShortenFQNames="true">
     <variable name="SOBJECT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="APEX" value="true" />
@@ -61,7 +61,7 @@
       <option name="APEX" value="true" />
     </context>
   </template>
-  <template name="sfabtmpAssign" value="$SOBJECT$ $VAR$ = ($SOBJECT$) new sfab_FabricatedSObject($SOBJECT$.class)&#10;        .setField($SOBJECT$.Id, sfab_FabricatedSObject.getFakeId($SOBJECT$.SObjectType))&#10;        //.setField($SOBJECT$.fieldName, 'value')&#10;        .toSObject();" description="" toReformat="false" toShortenFQNames="true">
+  <template name="sfabtmpAssign" value="$SOBJECT$ $VAR$ = ($SOBJECT$) new sfab_FabricatedSObject($SOBJECT$.class)&#10;        .setField($SOBJECT$.Id, TriggerTestUtility.getFakeId($SOBJECT$.SObjectType))&#10;        //.setField($SOBJECT$.fieldName, 'value')&#10;        .toSObject();" description="" toReformat="false" toShortenFQNames="true">
     <variable name="SOBJECT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
