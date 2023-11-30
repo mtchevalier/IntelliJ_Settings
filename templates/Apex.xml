@@ -21,7 +21,7 @@
       <option name="APEX" value="true" />
     </context>
   </template>
-  <template name="getfakeid" value="sfab_FabricatedSObject.getFakeId($SOBJECT_API_NAME$.SObjectType)$END$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="getfakeid" value="TriggerTestUtility.getFakeId($SOBJECT_API_NAME$.SObjectType)$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="SOBJECT_API_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="APEX" value="true" />
