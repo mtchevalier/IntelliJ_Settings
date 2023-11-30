@@ -265,7 +265,7 @@
       <option name="APEX" value="true" />
     </context>
   </template>
-  <template name="invocableMethod" value="@InvocableMethod(label='$LABEL$' description='$DESC$' callout=$IS_CALLOUT$)&#10;public static void $METHOD_NAME$(){&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="invocableMethod" value="@InvocableMethod(label='$LABEL$' description='$DESC$' callout=$IS_CALLOUT$)&#10;public static void $METHOD_NAME$(){&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="IS_CALLOUT" expression="enum(&quot;true&quot;, &quot;false&quot;)" defaultValue="" alwaysStopAt="true" />
@@ -274,7 +274,7 @@
       <option name="APEX" value="true" />
     </context>
   </template>
-  <template name="invocableVar" value="@InvocableVariable(label='$LABEL$' description='$DESC$' required=$IS_REQUIRED$)&#10;public $VAR_TYPE$ $VAR_NAME$;" toReformat="false" toShortenFQNames="true">
+  <template name="invocableVar" value="@InvocableVariable(label='$LABEL$' description='$DESC$' required=$IS_REQUIRED$)&#10;public $VAR_TYPE$ $VAR_NAME$;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="IS_REQUIRED" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="true" alwaysStopAt="true" />
