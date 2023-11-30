@@ -5,7 +5,7 @@
       <option name="APEX" value="true" />
     </context>
   </template>
-  <template name="tsttmpstatic" value="@IsTest&#10;private static void $METHOD_NAME$_TEST () {&#10;    Test.startTest();&#10;    {&#10;        $RETURN_TYPE$ res = $CLASS_NAME$.$METHOD_NAME$($ARGS$);&#10;        //System.assertEquals('expected', 'actual');&#10;    }&#10;    Test.stopTest();&#10;}" description="Generic test template for static methods" toReformat="false" toShortenFQNames="true">
+  <template name="tsttmpstatic" value="@IsTest&#10;private static void $METHOD_NAME$_TEST () {&#10;    Test.startTest();&#10;    {&#10;        $RETURN_TYPE$ res = $CLASS_NAME$.$METHOD_NAME$($ARGS$);&#10;    }&#10;    Test.stopTest();&#10;}" description="Generic test template for static methods" toReformat="false" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
@@ -91,7 +91,7 @@
       <option name="APEX" value="true" />
     </context>
   </template>
-  <template name="tsttmp" value="@IsTest&#10;private static void $METHOD_NAME$_TEST () {&#10;    $CLASS_NAME$ instance = new $CLASS_NAME$();&#10;    Test.startTest();&#10;    {&#10;        $RETURN_TYPE$ res = instance.$METHOD_NAME$($ARGS$);&#10;        //System.assertEquals('expected', 'actual');&#10;    }&#10;    Test.stopTest();&#10;}" description="Generic test template" toReformat="false" toShortenFQNames="true">
+  <template name="tsttmp" value="@IsTest&#10;private static void $METHOD_NAME$_TEST () {&#10;    $CLASS_NAME$ instance = new $CLASS_NAME$();&#10;    Test.startTest();&#10;    {&#10;        $RETURN_TYPE$ res = instance.$METHOD_NAME$($ARGS$);&#10;    }&#10;    Test.stopTest();&#10;}" description="Generic test template" toReformat="false" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
