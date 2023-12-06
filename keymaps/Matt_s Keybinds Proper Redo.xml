@@ -5,6 +5,7 @@
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
@@ -60,6 +61,9 @@
   </action>
   <action id="Diagram.DeselectAll" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="shift alt button1" />
     <mouse-shortcut keystroke="alt button1" />
@@ -99,6 +103,7 @@
     <keyboard-shortcut first-keystroke="ctrl 0" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
@@ -124,6 +129,7 @@
   <action id="GotoRow" />
   <action id="GotoSymbol" />
   <action id="GotoUrlAction" />
+  <action id="GuiDesigner.ShrinkSelection" />
   <action id="IlluminatedCloud.AddToModuleContents">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
   </action>
@@ -141,7 +147,7 @@
   </action>
   <action id="IlluminatedCloud.LogAnalyzer">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" />
-    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="IlluminatedCloud.SfdxPush">
     <keyboard-shortcut first-keystroke="shift ctrl alt f9" />
@@ -197,12 +203,14 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
     <keyboard-shortcut first-keystroke="shift ctrl i" />
   </action>
+  <action id="SmartUnSelect" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
   </action>
+  <action id="TableResult.ShrinkSelection" />
   <action id="TagDocumentationNavigation" />
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="ctrl alt space" />
@@ -213,6 +221,7 @@
     <keyboard-shortcut first-keystroke="ctrl back_slash" />
   </action>
   <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="android.device.overview.button" />
   <action id="git-commit-message-template.SetCommitMessageAction">
     <keyboard-shortcut first-keystroke="ctrl k" />
     <keyboard-shortcut first-keystroke="ctrl g" />
