@@ -40,6 +40,7 @@
           <option name="username" value="dev+sba@innovateteam.com" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
+          <option name="confirmWrites" value="true" />
           <option name="connectionName" value="Fearless-SBA_UAT" />
           <option name="connectionType" value="OAUTH" />
           <option name="disableDeployOnSaveWhenConfirmWrites" value="true" />
@@ -72,7 +73,7 @@
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
     <option name="selectedConnectionIndex" value="4" />
-    <option name="selectedTabIndex" value="2" />
+    <option name="selectedTabIndex" value="1" />
     <option name="sfdxAlwaysForce" value="true" />
     <option name="sfdxLogCommands" value="true" />
     <option name="sfdxPreferredProjectTemplateName" value="RECOMMENDED" />
