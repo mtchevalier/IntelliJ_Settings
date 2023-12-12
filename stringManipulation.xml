@@ -298,9 +298,9 @@
     </option>
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToScreamingSnakeCaseOrCamelCaseAction" />
-        <option name="description" value="Toggle: SCREAMING_SNAKE_CASE / camelCase" />
-        <option name="textWithMnemonic" value="SCREAMING_SNAKE_CASE / camelCase" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToLowerCaseAction" />
+        <option name="description" value="To lower case" />
+        <option name="textWithMnemonic" value="To lower case" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
