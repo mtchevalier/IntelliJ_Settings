@@ -1,5 +1,5 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="19">
     <extensionMap>
       <mapping pattern="FTP-6693 - Perspecta EB" type="AUTO_DETECTED" />
       <mapping ext="space.kts" type="Kotlin" />
