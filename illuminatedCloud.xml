@@ -3,8 +3,10 @@
     <option name="connectionConfigs">
       <list>
         <IlluminatedCloudConnectionConfig>
+          <option name="confirmWrites" value="true" />
           <option name="connectionName" value="Daydream-EverDriven_DEV" />
           <option name="connectionType" value="OAUTH" />
+          <option name="disableDeployOnSaveWhenConfirmWrites" value="true" />
           <option name="ensureFieldReadAccess" value="false" />
           <option name="loginUrl" value="" />
           <option name="organizationType" value="OAUTH" />
@@ -22,8 +24,10 @@
           <option name="username" value="v-mchevalier@everdriven.com" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
+          <option name="confirmWrites" value="true" />
           <option name="connectionName" value="Fearless-SBA_DEV" />
           <option name="connectionType" value="OAUTH" />
+          <option name="disableDeployOnSaveWhenConfirmWrites" value="true" />
           <option name="ensureFieldReadAccess" value="false" />
           <option name="loginUrl" value="" />
           <option name="organizationType" value="OAUTH" />
@@ -31,25 +35,6 @@
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
           <option name="confirmWrites" value="true" />
-          <option name="connectionName" value="Fearless-SBA_PROD" />
-          <option name="connectionType" value="OAUTH" />
-          <option name="disableDeployOnSaveWhenConfirmWrites" value="true" />
-          <option name="ensureFieldReadAccess" value="false" />
-          <option name="loginUrl" value="" />
-          <option name="organizationType" value="DEVHUB" />
-          <option name="username" value="dev+sba@innovateteam.com" />
-        </IlluminatedCloudConnectionConfig>
-        <IlluminatedCloudConnectionConfig>
-          <option name="confirmWrites" value="true" />
-          <option name="connectionName" value="Fearless-SBA_UAT" />
-          <option name="connectionType" value="OAUTH" />
-          <option name="disableDeployOnSaveWhenConfirmWrites" value="true" />
-          <option name="ensureFieldReadAccess" value="false" />
-          <option name="loginUrl" value="" />
-          <option name="organizationType" value="OAUTH" />
-          <option name="username" value="dev+sba@innovateteam.com.uat" />
-        </IlluminatedCloudConnectionConfig>
-        <IlluminatedCloudConnectionConfig>
           <option name="connectionName" value="Turnberry-MNIT_POST" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
@@ -57,22 +42,13 @@
           <option name="organizationType" value="OAUTH" />
           <option name="username" value="matthew.chevalier@turnberrysolutions.com.post" />
         </IlluminatedCloudConnectionConfig>
-        <IlluminatedCloudConnectionConfig>
-          <option name="confirmWrites" value="true" />
-          <option name="connectionName" value="Turnberry-MNIT_QA" />
-          <option name="connectionType" value="OAUTH" />
-          <option name="ensureFieldReadAccess" value="false" />
-          <option name="loginUrl" value="" />
-          <option name="organizationType" value="OAUTH" />
-          <option name="username" value="matthew.chevalier@turnberrysolutions.com.qa" />
-        </IlluminatedCloudConnectionConfig>
       </list>
     </option>
     <option name="createAllTestsRunConfig" value="false" />
     <option name="lastChangeNotesVersion" value="2.2.9.4" />
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
-    <option name="selectedConnectionIndex" value="7" />
+    <option name="selectedConnectionIndex" value="1" />
     <option name="selectedTabIndex" value="1" />
     <option name="sfdxAlwaysForce" value="true" />
     <option name="sfdxLogCommands" value="true" />
