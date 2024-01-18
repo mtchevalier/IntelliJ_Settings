@@ -3,22 +3,6 @@
     <option name="columnAlignerHistory">
       <list>
         <ColumnAlignerModel>
-          <option name="added" value="1697809269537" />
-          <option name="alignRightColumnIndexes" value="" />
-          <option name="columnSortOrder" value="" />
-          <option name="maxSeparatorsPerLine" value="" />
-          <option name="separators">
-            <list>
-              <option value=":" />
-            </list>
-          </option>
-          <option name="sortSettings">
-            <SortSettings>
-              <option name="ignoreLeadingCharacters" value="//" />
-            </SortSettings>
-          </option>
-        </ColumnAlignerModel>
-        <ColumnAlignerModel>
           <option name="added" value="1697816405025" />
           <option name="alignRightColumnIndexes" value="" />
           <option name="columnSortOrder" value="" />
@@ -320,6 +304,22 @@
         </ColumnAlignerModel>
         <ColumnAlignerModel>
           <option name="added" value="1705610015976" />
+          <option name="alignRightColumnIndexes" value="" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="=" />
+            </list>
+          </option>
+          <option name="sortSettings">
+            <SortSettings>
+              <option name="ignoreLeadingCharacters" value="//" />
+            </SortSettings>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1705610727560" />
           <option name="alignRightColumnIndexes" value="" />
           <option name="columnSortOrder" value="" />
           <option name="maxSeparatorsPerLine" value="" />
