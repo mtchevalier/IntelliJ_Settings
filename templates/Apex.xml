@@ -103,6 +103,9 @@
   <template name="sendEmail" value="String emailBody = $END$;&#10;&#10;Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();&#10;mail.setToAddresses(new List&lt;String&gt;{$EMAIL_ADDRESSES$});&#10;mail.setSubject($SUBJECT$);&#10;mail.setHtmlBody(emailBody);&#10;mail.setPlainTextBody(emailBody);&#10;&#10;if(!Test.isRunningTest()) {&#10;    Messaging.sendEmail(new Messaging.SingleEmailMessage[]{mail});&#10;}" description="Template to send email from apex" toReformat="false" toShortenFQNames="true">
     <variable name="EMAIL_ADDRESSES" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="SUBJECT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="APEX" value="true" />
+    </context>
   </template>
   <template name="getPickListValues" value="String copyReady = '\n';&#10;&#10;for( Schema.PicklistEntry pickListVal : $OBJECT_API_NAME$.$FIELD_API_NAME$.getDescribe().getPicklistValues()){&#10;    System.debug(pickListVal.getValue());&#10;    copyReady+= pickListVal.getValue() + '\n';&#10;}     &#10;System.debug('MATDEV copyReady:');&#10;System.debug(copyReady);" description="" toReformat="false" toShortenFQNames="true">
     <variable name="OBJECT_API_NAME" expression="" defaultValue="" alwaysStopAt="true" />
