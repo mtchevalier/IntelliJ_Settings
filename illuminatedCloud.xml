@@ -96,6 +96,9 @@
     <option name="lastChangeNotesVersion" value="2.2.9.9" />
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
+    <option name="removeLocalChildMetadataPolicy" value="ALL" />
+    <option name="removeLocalMetadataFilesPolicy" value="ALL" />
+    <option name="retrieveAddedMetadataPolicy" value="ALL" />
     <option name="selectedConnectionIndex" value="4" />
     <option name="selectedTabIndex" value="5" />
     <option name="sfdxAlwaysForce" value="true" />
@@ -105,7 +108,7 @@
     <option name="sfdxPushOnDelete" value="true" />
     <option name="sfdxPushOnRenameMove" value="true" />
     <option name="sfdxPushOnSave" value="true" />
-    <option name="showMetaXmlFiles" value="true" />
+    <option name="sortPackageXmlEntries" value="true" />
     <option name="subscriptionManagementPolicy" value="ALWAYS_UPDATE" />
     <option name="useSeparateSourceRootForStaticResourceBundles" value="true" />
   </component>
