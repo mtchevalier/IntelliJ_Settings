@@ -1,5 +1,5 @@
 <templateSet group="LWC Imports">
-  <template name="importlms" value="import {&#10;    APPLICATION_SCOPE,&#10;    createMessageContext,&#10;    MessageContext,&#10;    publish,&#10;    releaseMessageContext,&#10;    subscribe,&#10;    unsubscribe,&#10;} from 'lightning/messageService';" toReformat="false" toShortenFQNames="true">
+  <template name="importlms" value="import {&#10;    APPLICATION_SCOPE,&#10;    createMessageContext,&#10;    MessageContext,&#10;    publish,&#10;    releaseMessageContext,&#10;    subscribe,&#10;    unsubscribe,&#10;} from 'lightning/messageService';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
