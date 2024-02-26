@@ -23,7 +23,7 @@
           <option name="username" value="dev+sba@innovateteam.com.dev" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="TH-LWC_Modules" />
+          <option name="connectionName" value="TH_Alpha" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
           <option name="loginUrl" value="" />
@@ -99,8 +99,8 @@
     <option name="removeLocalChildMetadataPolicy" value="ALL" />
     <option name="removeLocalMetadataFilesPolicy" value="ALL" />
     <option name="retrieveAddedMetadataPolicy" value="ALL" />
-    <option name="selectedConnectionIndex" value="4" />
-    <option name="selectedTabIndex" value="5" />
+    <option name="selectedConnectionIndex" value="2" />
+    <option name="selectedTabIndex" value="1" />
     <option name="sfdxAlwaysForce" value="true" />
     <option name="sfdxLogCommands" value="true" />
     <option name="sfdxPreferredProjectTemplateName" value="RECOMMENDED" />
