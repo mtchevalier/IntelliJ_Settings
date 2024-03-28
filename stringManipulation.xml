@@ -339,9 +339,9 @@
     </option>
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.WordsCapitalizeAction" />
-        <option name="description" value="Capitalize using apache-commons WordUtils#capitalizeFully" />
-        <option name="textWithMnemonic" value="Capitalize" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToScreamingSnakeCaseAction" />
+        <option name="description" value="To SCREAMING_SNAKE_CASE" />
+        <option name="textWithMnemonic" value="To SCREAMING_SNAKE_CASE" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
