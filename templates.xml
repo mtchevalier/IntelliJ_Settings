@@ -471,6 +471,10 @@
           <option name="key" value="mermaid_codeFence" />
         </TemplateKey>
         <TemplateKey>
+          <option name="groupName" value="Mermaid Hidden" />
+          <option name="key" value="mermaid_block" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="Apex" />
           <option name="key" value="tst" />
         </TemplateKey>
