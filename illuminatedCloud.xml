@@ -11,12 +11,12 @@
           <option name="username" value="matthew.chevalier@turnberrysolutions.com.ebike" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
-          <option name="connectionName" value="Turnberry-Raven_UAT" />
+          <option name="connectionName" value="TB-nVent-DAP_DEV" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
           <option name="loginUrl" value="" />
           <option name="organizationType" value="OAUTH" />
-          <option name="username" value="matthew.chevalier@turnberrysolutions.com.tbuat" />
+          <option name="username" value="matthew.chevalier@nvent.com.dap" />
         </IlluminatedCloudConnectionConfig>
       </list>
     </option>
