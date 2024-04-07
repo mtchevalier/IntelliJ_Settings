@@ -11,8 +11,6 @@
           <option name="username" value="matthew.chevalier@turnberrysolutions.com.ebike" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
-          <option name="checkForConflicts" value="true" />
-          <option name="confirmWrites" value="true" />
           <option name="connectionName" value="TB-MNITeBike_QA" />
           <option name="connectionType" value="OAUTH" />
           <option name="disableDeployOnSaveWhenConfirmWrites" value="true" />
@@ -47,6 +45,7 @@
     <option name="sfdxPushOnDelete" value="true" />
     <option name="sfdxPushOnRenameMove" value="true" />
     <option name="sfdxPushOnSave" value="true" />
+    <option name="showMetaXmlFiles" value="true" />
     <option name="sortPackageXmlEntries" value="true" />
     <option name="subscriptionManagementPolicy" value="ALWAYS_UPDATE" />
     <option name="useSeparateSourceRootForStaticResourceBundles" value="true" />
