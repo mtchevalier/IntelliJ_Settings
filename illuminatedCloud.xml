@@ -11,6 +11,7 @@
           <option name="username" value="matthew.chevalier@turnberrysolutions.com.ebike" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
+          <option name="confirmWrites" value="true" />
           <option name="connectionName" value="TB-MNITeBike_QA" />
           <option name="connectionType" value="OAUTH" />
           <option name="disableDeployOnSaveWhenConfirmWrites" value="true" />
