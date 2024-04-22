@@ -31,7 +31,7 @@
       </list>
     </option>
     <option name="createAllTestsRunConfig" value="false" />
-    <option name="lastChangeNotesVersion" value="2.3.0.5" />
+    <option name="lastChangeNotesVersion" value="2.3.0.8" />
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
     <option name="rememberLastForceDeploymentResultSelected" value="true" />
     <option name="removeLocalChildMetadataPolicy" value="ALL" />
@@ -39,6 +39,8 @@
     <option name="retrieveAddedMetadataPolicy" value="ALL" />
     <option name="selectedConnectionIndex" value="1" />
     <option name="selectedTabIndex" value="1" />
+    <option name="sfAlwaysIgnoreConflicts" value="true" />
+    <option name="sfLogCommands" value="true" />
     <option name="sfdxAlwaysForce" value="true" />
     <option name="sfdxLogCommands" value="true" />
     <option name="sfdxPreferredProjectTemplateName" value="RECOMMENDED" />
