@@ -72,5 +72,29 @@
         </sourcePath>
       </roots>
     </jdk>
+    <jdk version="2">
+      <name value="IlluminatedCloud (VanCharAssessment/VanChar-Assessment_Org)" />
+      <type value="IlluminatedCloud" />
+      <version value="201511031443" />
+      <homePath value="$USER_HOME$/IdeaProjects/VanCharAssessment/IlluminatedCloud/VanChar_Assessment_Org" />
+      <roots>
+        <annotationsPath>
+          <root type="composite" />
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/IdeaProjects/VanCharAssessment/IlluminatedCloud/VanChar_Assessment_Org/OfflineSymbolTable.zip!/" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/IdeaProjects/VanCharAssessment/IlluminatedCloud/VanChar_Assessment_Org/OfflineSymbolTable.zip!/" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+    </jdk>
   </component>
 </application>

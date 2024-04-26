@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account name="ctcforce" id="81d2b127-7960-4681-a2e1-cb9e846c6840">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
