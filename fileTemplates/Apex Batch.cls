@@ -18,12 +18,11 @@ public class ${NAME} implements Database.Batchable<SObject>, Schedulable{
     // This method is called after all batches are processed
     //  useful for sending completion notification emails
     public void finish(Database.BatchableContext BC) {
-        ProgynyEmailAutomationBatchHelper.sendBatchInfoEmail(BC,'','ProgynyConnectEmailBatch Batch Job Details');
     }
 
     //Schedulable execute
     public void execute(SchedulableContext sc) {
-        Database.executeBatch(new ProgynyConnectEmailBatch(),10);
+        Database.executeBatch(new ${NAME}(),10);
     }
 
 }
