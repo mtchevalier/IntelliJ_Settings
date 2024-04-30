@@ -46,7 +46,6 @@
     <option name="removeLocalMetadataFilesPolicy" value="ALL" />
     <option name="retrieveAddedMetadataPolicy" value="ALL" />
     <option name="selectedConnectionIndex" value="3" />
-    <option name="selectedTabIndex" value="1" />
     <option name="sfAlwaysIgnoreConflicts" value="true" />
     <option name="sfLogCommands" value="true" />
     <option name="sfdxAlwaysForce" value="true" />
