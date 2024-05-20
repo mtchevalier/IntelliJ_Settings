@@ -55,7 +55,7 @@
     <option name="removeLocalMetadataFilesPolicy" value="ALL" />
     <option name="retrieveAddedMetadataPolicy" value="ALL" />
     <option name="selectedConnectionIndex" value="3" />
-    <option name="selectedTabIndex" value="1" />
+    <option name="selectedTabIndex" value="5" />
     <option name="sfAlwaysIgnoreConflicts" value="true" />
     <option name="sfLogCommands" value="true" />
     <option name="sfdxAlwaysForce" value="true" />
@@ -65,6 +65,7 @@
     <option name="sfdxPushOnDelete" value="true" />
     <option name="sfdxPushOnRenameMove" value="true" />
     <option name="sfdxPushOnSave" value="true" />
+    <option name="showMetaXmlFiles" value="true" />
     <option name="sortPackageXmlEntries" value="true" />
     <option name="subscriptionManagementPolicy" value="ALWAYS_UPDATE" />
     <option name="useSeparateSourceRootForStaticResourceBundles" value="true" />
