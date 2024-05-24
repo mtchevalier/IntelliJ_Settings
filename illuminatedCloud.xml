@@ -29,7 +29,6 @@
           <option name="username" value="matthew.chevalier@nvent.com.dap" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
-          <option name="confirmWrites" value="true" />
           <option name="connectionName" value="TB-nVent_Staging" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
@@ -55,7 +54,7 @@
     <option name="removeLocalMetadataFilesPolicy" value="ALL" />
     <option name="retrieveAddedMetadataPolicy" value="ALL" />
     <option name="selectedConnectionIndex" value="3" />
-    <option name="selectedTabIndex" value="5" />
+    <option name="selectedTabIndex" value="1" />
     <option name="sfAlwaysIgnoreConflicts" value="true" />
     <option name="sfLogCommands" value="true" />
     <option name="sfdxAlwaysForce" value="true" />
