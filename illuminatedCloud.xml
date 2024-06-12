@@ -12,6 +12,15 @@
           <option name="username" value="mchevalier@penrodsoftware.com.24dev" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
+          <option name="confirmWrites" value="true" />
+          <option name="connectionName" value="Penrod-Wystta_DEV" />
+          <option name="connectionType" value="OAUTH" />
+          <option name="ensureFieldReadAccess" value="false" />
+          <option name="loginUrl" value="" />
+          <option name="organizationType" value="OAUTH" />
+          <option name="username" value="mchevalier@penrodsoftware.com.penroddev2" />
+        </IlluminatedCloudConnectionConfig>
+        <IlluminatedCloudConnectionConfig>
           <option name="connectionName" value="TB-MNITeBike_DEV" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
@@ -62,8 +71,8 @@
     <option name="removeLocalChildMetadataPolicy" value="ALL" />
     <option name="removeLocalMetadataFilesPolicy" value="ALL" />
     <option name="retrieveAddedMetadataPolicy" value="ALL" />
-    <option name="selectedConnectionIndex" value="0" />
-    <option name="selectedTabIndex" value="5" />
+    <option name="selectedConnectionIndex" value="1" />
+    <option name="selectedTabIndex" value="1" />
     <option name="sfAlwaysIgnoreConflicts" value="true" />
     <option name="sfLogCommands" value="true" />
     <option name="sfdxAlwaysForce" value="true" />
