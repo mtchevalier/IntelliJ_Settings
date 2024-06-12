@@ -1,9 +1,3 @@
-/**
- * ${NAME}
- * Date of file creation: ${MONTH_NAME_SHORT} ${DAY}, ${YEAR}
- * Originating Programmer: Matthew Chevalier
- *
- */
 @IsTest
 global with sharing class ${NAME} implements HttpCalloutMock {
     // Implement this interface method

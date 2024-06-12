@@ -1,4 +1,3 @@
-#parse("Apex File Header.cls")
 public class ${NAME} implements Database.Batchable<SObject>, Schedulable{
     
     public Database.QueryLocator start(Database.BatchableContext BC){

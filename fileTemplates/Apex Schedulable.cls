@@ -1,4 +1,3 @@
-#parse("Apex File Header.cls")
 global class ${NAME} implements Schedulable {
    global void execute(SchedulableContext sc) {
       //Instantiate and execute batch, passing optional scope parameter

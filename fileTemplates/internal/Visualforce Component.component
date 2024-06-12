@@ -1,0 +1,2 @@
+<apex:component id="${NAME}">
+</apex:component>

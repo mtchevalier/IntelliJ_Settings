@@ -1,5 +1,8 @@
 <application>
   <component name="ExportableFileTemplateSettings">
+    <includes_templates>
+      <template name="File Header.java" reformat="true" live-template-enabled="true" enabled="true" />
+    </includes_templates>
     <default_templates>
       <template name="Apex Trigger Action.cls" reformat="true" live-template-enabled="true" />
     </default_templates>

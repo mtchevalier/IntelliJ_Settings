@@ -12,7 +12,6 @@
           <option name="username" value="mchevalier@penrodsoftware.com.24dev" />
         </IlluminatedCloudConnectionConfig>
         <IlluminatedCloudConnectionConfig>
-          <option name="confirmWrites" value="true" />
           <option name="connectionName" value="Penrod-Wystta_DEV" />
           <option name="connectionType" value="OAUTH" />
           <option name="ensureFieldReadAccess" value="false" />
