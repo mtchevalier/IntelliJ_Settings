@@ -64,7 +64,6 @@
       </list>
     </option>
     <option name="createAllTestsRunConfig" value="false" />
-    <option name="deployAllModifiedFiles" value="false" />
     <option name="deployStaticResourceBundleOnContentsChange" value="false" />
     <option name="lastChangeNotesVersion" value="2.3.1.7" />
     <option name="promptForProfilePermissionSetOnlyDeployment" value="false" />
