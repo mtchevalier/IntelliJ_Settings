@@ -333,9 +333,9 @@
     </option>
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToScreamingSnakeCaseAction" />
-        <option name="description" value="To SCREAMING_SNAKE_CASE" />
-        <option name="textWithMnemonic" value="To SCREAMING_SNAKE_CASE" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.align.AlignCaretsAction" />
+        <option name="description" value="Align carets into a vertical line by inserting spaces" />
+        <option name="textWithMnemonic" value="Align Carets" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
