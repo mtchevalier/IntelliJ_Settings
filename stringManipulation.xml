@@ -3,54 +3,6 @@
     <option name="columnAlignerHistory">
       <list>
         <ColumnAlignerModel>
-          <option name="added" value="1711560771107" />
-          <option name="alignRightColumnIndexes" value="" />
-          <option name="columnSortOrder" value="" />
-          <option name="maxSeparatorsPerLine" value="" />
-          <option name="separators">
-            <list>
-              <option value="=" />
-            </list>
-          </option>
-          <option name="sortSettings">
-            <SortSettings>
-              <option name="ignoreLeadingCharacters" value="//" />
-            </SortSettings>
-          </option>
-        </ColumnAlignerModel>
-        <ColumnAlignerModel>
-          <option name="added" value="1711565477926" />
-          <option name="alignRightColumnIndexes" value="" />
-          <option name="columnSortOrder" value="" />
-          <option name="maxSeparatorsPerLine" value="" />
-          <option name="separators">
-            <list>
-              <option value="=&gt;" />
-            </list>
-          </option>
-          <option name="sortSettings">
-            <SortSettings>
-              <option name="ignoreLeadingCharacters" value="//" />
-            </SortSettings>
-          </option>
-        </ColumnAlignerModel>
-        <ColumnAlignerModel>
-          <option name="added" value="1711565485738" />
-          <option name="alignRightColumnIndexes" value="" />
-          <option name="columnSortOrder" value="" />
-          <option name="maxSeparatorsPerLine" value="" />
-          <option name="separators">
-            <list>
-              <option value="=&gt;" />
-            </list>
-          </option>
-          <option name="sortSettings">
-            <SortSettings>
-              <option name="ignoreLeadingCharacters" value="//" />
-            </SortSettings>
-          </option>
-        </ColumnAlignerModel>
-        <ColumnAlignerModel>
           <option name="added" value="1711565493600" />
           <option name="alignRightColumnIndexes" value="" />
           <option name="columnSortOrder" value="" />
@@ -321,6 +273,66 @@
           <option name="separators">
             <list>
               <option value="=&gt;" />
+            </list>
+          </option>
+          <option name="sortSettings">
+            <SortSettings>
+              <option name="ignoreLeadingCharacters" value="//" />
+            </SortSettings>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1718971881622" />
+          <option name="alignRightColumnIndexes" value="" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="name" />
+              <option value="type" />
+              <option value="default" />
+              <option value="access" />
+              <option value="description" />
+            </list>
+          </option>
+          <option name="sortSettings">
+            <SortSettings>
+              <option name="ignoreLeadingCharacters" value="//" />
+            </SortSettings>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1718972004139" />
+          <option name="alignRightColumnIndexes" value="" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="name" />
+              <option value="type" />
+              <option value="default" />
+              <option value="access" />
+              <option value="description" />
+            </list>
+          </option>
+          <option name="sortSettings">
+            <SortSettings>
+              <option name="ignoreLeadingCharacters" value="//" />
+            </SortSettings>
+          </option>
+        </ColumnAlignerModel>
+        <ColumnAlignerModel>
+          <option name="added" value="1718972297361" />
+          <option name="alignRightColumnIndexes" value="" />
+          <option name="columnSortOrder" value="" />
+          <option name="maxSeparatorsPerLine" value="" />
+          <option name="separators">
+            <list>
+              <option value="name" />
+              <option value="type" />
+              <option value="default" />
+              <option value="access" />
+              <option value="description" />
             </list>
           </option>
           <option name="sortSettings">
