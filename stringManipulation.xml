@@ -388,9 +388,9 @@
     </option>
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.align.AlignCaretsAction" />
-        <option name="description" value="Align carets into a vertical line by inserting spaces" />
-        <option name="textWithMnemonic" value="Align Carets" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToKebabCaseAction" />
+        <option name="description" value="To kebab-case" />
+        <option name="textWithMnemonic" value="To kebab-case" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
