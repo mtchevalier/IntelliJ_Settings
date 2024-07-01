@@ -388,8 +388,9 @@
     </option>
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.swap.QuoteAction" />
-        <option name="textWithMnemonic" value="Quote/Unquote" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.filter.TrimAction" />
+        <option name="description" value="Trim selected text" />
+        <option name="textWithMnemonic" value="Trim" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
