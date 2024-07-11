@@ -3,6 +3,8 @@
     <option name="CONSOLE_CYCLE_BUFFER_SIZE_KB" value="25600" />
     <option name="EDITOR_TAB_LIMIT" value="20" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="18" />
+    <option name="MAX_LOOKUP_WIDTH2" value="1007" />
     <option name="OPEN_TABS_AT_THE_END" value="true" />
     <option name="OVERRIDE_CONSOLE_CYCLE_BUFFER_SIZE" value="true" />
   </component>

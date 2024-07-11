@@ -135,4 +135,15 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="lmsBP_FULL" value="    subscription;&#10;&#10;    @wire(MessageContext)&#10;    messageContext;&#10;    &#10;    connectedCallback() {&#10;        this._subscribeToMessageChannel();&#10;    }&#10;    &#10;    disconnectedCallback() {&#10;        this._unsubscribeFromMessageChannel();&#10;    }&#10;&#10;    _subscribeToMessageChannel() {&#10;        if (!this.subscription) {&#10;            this.subscription = subscribe(&#10;                this.messageContext,&#10;                portalTour_MC,&#10;                (message) =&gt; this._$CALLBACK$(message),&#10;                {scope: APPLICATION_SCOPE}&#10;            );&#10;        }&#10;    }&#10;&#10;    _unsubscribeFromMessageChannel() {&#10;        unsubscribe(this.subscription);&#10;        this.subscription = null;&#10;    }" toReformat="true" toShortenFQNames="true">
+    <variable name="CALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="lmsUnsub" value="_unsubscribeFromMessageChannel() {&#10;    unsubscribe(this.subscription);&#10;    this.subscription = null;&#10;}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
