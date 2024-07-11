@@ -386,8 +386,9 @@
     </option>
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.swap.QuoteAction" />
-        <option name="textWithMnemonic" value="Quote/Unquote" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToKebabCaseAction" />
+        <option name="description" value="To kebab-case" />
+        <option name="textWithMnemonic" value="To kebab-case" />
       </UniversalActionModel>
     </option>
     <option name="replaceHistory">
